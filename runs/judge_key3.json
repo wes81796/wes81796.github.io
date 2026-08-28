@@ -1,0 +1,5762 @@
+{
+ "v001": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v002": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v003": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v004": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v005": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v006": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v007": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v008": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v009": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v010": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v011": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v012": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v013": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v014": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v015": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v016": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v017": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v018": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v019": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v020": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v021": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v022": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v023": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v024": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v025": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v026": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v027": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v028": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v029": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v030": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v031": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v032": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v033": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v034": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v035": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v036": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v037": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v038": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v039": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v040": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v041": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v042": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v043": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v044": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v045": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v046": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v047": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v048": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v049": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v050": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v051": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v052": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v053": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v054": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v055": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v056": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v057": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v058": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v059": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v060": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v061": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v062": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v063": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v064": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v065": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v066": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v067": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v068": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v069": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v070": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v071": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v072": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v073": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v074": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v075": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v076": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v077": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v078": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v079": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v080": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v081": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v082": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v083": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v084": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v085": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v086": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v087": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v088": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v089": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v090": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v091": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v092": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v093": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v094": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v095": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v096": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v097": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v098": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v099": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v100": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v101": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v102": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v103": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v104": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v105": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v106": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v107": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v108": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v109": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v110": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v111": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v112": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v113": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v114": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v115": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v116": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v117": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v118": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v119": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v120": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v121": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v122": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v123": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v124": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v125": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v126": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v127": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v128": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v129": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v130": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v131": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v132": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v133": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v134": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v135": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v136": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v137": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v138": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v139": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v140": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v141": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v142": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v143": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v144": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v145": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v146": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v147": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v148": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v149": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v150": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v151": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v152": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v153": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v154": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v155": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v156": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v157": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v158": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v159": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v160": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v161": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v162": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v163": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v164": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v165": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v166": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v167": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v168": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v169": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v170": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v171": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v172": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v173": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v174": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v175": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v176": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v177": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v178": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v179": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v180": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v181": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v182": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v183": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v184": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v185": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v186": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v187": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v188": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v189": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v190": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v191": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v192": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v193": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v194": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v195": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v196": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v197": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v198": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v199": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v200": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v201": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v202": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v203": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v204": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v205": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v206": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v207": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v208": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v209": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v210": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v211": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v212": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v213": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v214": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v215": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v216": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v217": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v218": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v219": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v220": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v221": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v222": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v223": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v224": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v225": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v226": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v227": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v228": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v229": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v230": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v231": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v232": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v233": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v234": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v235": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v236": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v237": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v238": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v239": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v240": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v241": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v242": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v243": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v244": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v245": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v246": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v247": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v248": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v249": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v250": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v251": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v252": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v253": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v254": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v255": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v256": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v257": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v258": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v259": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v260": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v261": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v262": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v263": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v264": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v265": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v266": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v267": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v268": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v269": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v270": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v271": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v272": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v273": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v274": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v275": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v276": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v277": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v278": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v279": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v280": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v281": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v282": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v283": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v284": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v285": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v286": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v287": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v288": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v289": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v290": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v291": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v292": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v293": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v294": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v295": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v296": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v297": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v298": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v299": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v300": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v301": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v302": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v303": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v304": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v305": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v306": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v307": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v308": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v309": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v310": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v311": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v312": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v313": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v314": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v315": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v316": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v317": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v318": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v319": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v320": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v321": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v322": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v323": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v324": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v325": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v326": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v327": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v328": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v329": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v330": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v331": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v332": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v333": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v334": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v335": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v336": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v337": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v338": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v339": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v340": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v341": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v342": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v343": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v344": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v345": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v346": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v347": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v348": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v349": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v350": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v351": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v352": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v353": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v354": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v355": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v356": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v357": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v358": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v359": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v360": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v361": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v362": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v363": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v364": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v365": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v366": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v367": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v368": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v369": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v370": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v371": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v372": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v373": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v374": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v375": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v376": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v377": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v378": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v379": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v380": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v381": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v382": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v383": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v384": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v385": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v386": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v387": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v388": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v389": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v390": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v391": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v392": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v393": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v394": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v395": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v396": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v397": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v398": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v399": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v400": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v401": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v402": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v403": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v404": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v405": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v406": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v407": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v408": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v409": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v410": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v411": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v412": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v413": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v414": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v415": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v416": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v417": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v418": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v419": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v420": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v421": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v422": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v423": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v424": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v425": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v426": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v427": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v428": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v429": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v430": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v431": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v432": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v433": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v434": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v435": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v436": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v437": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v438": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v439": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v440": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v441": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v442": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v443": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v444": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v445": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v446": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v447": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v448": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v449": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v450": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v451": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v452": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v453": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v454": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v455": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v456": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v457": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v458": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v459": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v460": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v461": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v462": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v463": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v464": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v465": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v466": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v467": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v468": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v469": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v470": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v471": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v472": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v473": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v474": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v475": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v476": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v477": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v478": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v479": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v480": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v481": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v482": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v483": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v484": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v485": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v486": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v487": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v488": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v489": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v490": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v491": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v492": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v493": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v494": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v495": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v496": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v497": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v498": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v499": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v500": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v501": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v502": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v503": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v504": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v505": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v506": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v507": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v508": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v509": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v510": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v511": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v512": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v513": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v514": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v515": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v516": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v517": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v518": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v519": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v520": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v521": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v522": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v523": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v524": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v525": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v526": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v527": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v528": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v529": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v530": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v531": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v532": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v533": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v534": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v535": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v536": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v537": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v538": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v539": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v540": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v541": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v542": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v543": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v544": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v545": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v546": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v547": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v548": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v549": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v550": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v551": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v552": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v553": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v554": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v555": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v556": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v557": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v558": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v559": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v560": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v561": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v562": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v563": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v564": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v565": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v566": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v567": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v568": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v569": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v570": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v571": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v572": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v573": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v574": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "v575": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v576": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v577": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v578": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v579": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v580": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v581": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v582": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v583": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v584": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v585": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v586": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v587": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v588": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v589": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v590": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v591": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v592": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v593": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v594": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v595": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v596": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v597": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v598": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v599": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v600": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v601": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v602": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v603": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v604": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v605": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v606": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v607": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v608": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "v609": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v610": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v611": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v612": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v613": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "v614": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v615": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v616": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v617": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v618": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v619": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v620": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v621": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v622": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v623": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v624": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v625": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v626": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v627": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v628": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v629": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v630": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v631": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v632": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v633": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v634": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v635": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v636": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "v637": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v638": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v639": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v640": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v641": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "v642": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v643": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v644": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v645": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "v646": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v647": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v648": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v649": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v650": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v651": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "v652": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v653": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v654": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v655": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v656": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v657": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "v658": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v659": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v660": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v661": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v662": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v663": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v664": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "v665": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "v666": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v667": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v668": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "v669": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v670": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v671": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v672": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v673": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v674": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "v675": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "v676": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v677": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v678": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "v679": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v680": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v681": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "v682": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v683": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v684": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v685": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "v686": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "v687": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "v688": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v689": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "v690": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "v691": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v692": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "v693": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "v694": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "v695": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "v696": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v697": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v698": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v699": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "v700": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "v701": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v702": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "v703": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "v704": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "v705": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "v706": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "v707": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v708": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v709": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v710": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "v711": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "v712": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "search_engine",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v713": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "v714": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "v715": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "v716": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "v717": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "vending_machine",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "v718": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "search_engine",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "v719": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "v720": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "vending_machine",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ }
+}

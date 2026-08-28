@@ -1,0 +1,5146 @@
+{
+ "u001": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u002": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u003": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u004": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u005": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u006": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u007": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u008": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u009": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u010": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u011": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u012": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u013": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u014": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u015": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u016": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u017": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u018": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u019": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u020": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u021": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u022": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u023": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u024": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u025": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u026": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u027": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u028": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u029": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u030": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u031": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u032": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u033": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u034": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u035": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u036": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u037": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u038": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u039": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u040": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u041": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u042": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u043": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u044": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u045": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u046": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u047": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u048": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u049": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u050": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u051": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u052": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u053": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u054": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u055": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u056": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u057": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u058": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u059": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u060": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u061": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u062": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u063": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u064": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u065": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u066": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u067": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u068": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u069": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u070": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u071": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u072": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u073": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u074": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u075": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u076": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u077": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u078": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u079": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u080": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u081": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u082": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u083": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u084": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u085": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u086": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u087": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u088": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u089": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u090": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u091": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u092": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u093": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u094": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u095": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u096": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u097": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u098": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u099": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u100": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u101": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u102": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u103": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u104": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u105": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u106": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u107": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u108": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u109": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u110": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u111": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u112": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u113": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u114": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u115": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u116": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u117": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u118": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u119": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u120": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u121": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u122": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u123": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u124": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u125": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u126": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u127": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u128": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u129": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u130": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u131": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u132": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u133": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u134": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u135": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u136": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u137": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u138": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u139": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u140": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u141": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u142": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u143": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u144": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u145": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u146": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u147": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u148": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u149": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u150": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u151": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u152": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u153": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u154": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u155": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u156": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u157": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u158": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u159": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u160": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u161": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u162": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u163": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u164": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u165": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u166": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u167": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u168": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u169": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u170": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u171": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u172": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u173": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u174": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u175": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u176": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u177": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u178": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u179": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u180": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u181": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u182": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u183": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u184": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u185": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u186": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u187": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u188": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u189": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u190": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u191": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u192": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u193": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u194": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u195": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u196": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u197": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u198": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u199": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u200": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u201": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u202": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u203": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u204": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u205": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u206": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u207": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u208": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u209": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u210": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u211": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u212": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u213": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u214": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u215": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u216": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u217": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u218": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u219": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u220": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u221": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u222": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u223": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u224": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u225": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u226": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u227": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u228": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u229": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u230": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u231": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u232": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u233": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u234": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u235": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u236": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u237": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u238": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u239": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u240": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u241": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u242": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u243": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u244": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u245": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u246": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u247": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u248": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u249": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u250": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u251": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u252": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u253": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u254": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u255": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u256": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u257": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u258": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u259": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u260": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u261": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u262": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u263": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u264": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u265": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u266": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u267": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u268": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u269": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u270": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u271": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u272": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u273": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u274": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u275": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u276": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u277": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u278": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u279": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u280": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u281": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u282": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u283": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u284": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u285": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u286": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u287": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u288": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u289": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u290": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u291": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u292": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u293": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u294": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u295": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u296": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u297": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u298": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u299": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u300": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u301": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u302": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u303": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u304": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u305": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u306": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u307": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u308": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u309": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u310": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u311": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u312": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u313": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u314": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u315": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u316": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u317": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u318": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u319": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u320": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u321": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u322": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u323": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u324": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u325": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u326": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u327": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u328": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u329": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u330": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u331": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u332": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u333": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u334": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u335": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u336": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u337": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u338": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u339": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u340": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u341": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u342": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u343": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u344": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u345": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u346": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u347": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u348": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u349": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u350": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u351": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u352": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u353": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u354": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u355": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u356": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u357": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u358": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u359": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u360": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u361": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u362": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u363": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u364": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u365": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u366": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u367": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u368": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u369": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u370": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u371": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u372": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u373": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u374": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u375": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u376": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u377": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u378": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u379": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u380": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u381": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u382": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u383": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u384": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u385": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u386": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u387": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u388": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u389": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u390": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u391": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u392": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u393": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u394": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u395": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u396": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u397": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u398": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u399": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u400": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u401": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u402": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u403": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u404": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u405": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u406": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u407": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u408": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u409": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u410": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u411": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u412": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u413": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u414": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u415": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u416": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u417": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u418": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u419": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u420": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u421": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u422": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u423": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u424": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u425": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u426": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u427": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u428": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u429": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u430": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u431": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u432": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u433": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u434": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u435": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u436": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u437": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u438": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u439": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u440": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u441": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u442": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u443": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u444": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u445": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u446": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u447": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u448": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u449": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u450": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u451": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u452": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u453": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u454": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u455": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u456": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u457": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u458": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u459": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u460": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u461": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u462": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u463": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u464": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u465": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u466": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u467": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u468": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u469": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u470": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u471": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u472": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u473": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u474": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u475": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u476": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u477": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u478": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u479": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u480": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u481": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u482": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u483": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u484": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u485": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u486": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u487": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u488": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u489": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u490": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u491": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u492": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u493": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u494": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u495": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u496": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u497": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u498": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u499": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u500": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u501": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u502": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u503": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u504": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u505": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u506": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u507": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u508": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u509": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u510": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u511": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u512": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u513": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u514": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u515": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u516": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "u517": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u518": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u519": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u520": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u521": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u522": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u523": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u524": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u525": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u526": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u527": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u528": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u529": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u530": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u531": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u532": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u533": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u534": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u535": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u536": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u537": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u538": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "u539": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u540": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u541": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u542": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u543": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u544": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u545": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u546": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "u547": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u548": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u549": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u550": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u551": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u552": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u553": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u554": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "u555": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u556": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u557": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u558": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u559": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "u560": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u561": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u562": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u563": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u564": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u565": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u566": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "u567": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "u568": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u569": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u570": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u571": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u572": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u573": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u574": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u575": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u576": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "u577": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u578": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u579": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u580": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u581": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u582": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u583": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u584": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u585": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "u586": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u587": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u588": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u589": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u590": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "u591": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "u592": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u593": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u594": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "u595": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "u596": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u597": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u598": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u599": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "u600": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "u601": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u602": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "u603": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "u604": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u605": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u606": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "u607": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "u608": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u609": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u610": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "u611": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "u612": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "u613": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u614": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u615": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u616": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u617": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "u618": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u619": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "u620": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u621": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "u622": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "u623": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u624": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u625": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u626": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "u627": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "u628": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u629": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u630": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "u631": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "u632": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "u633": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u634": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "u635": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "u636": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "u637": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "u638": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "u639": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "u640": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "u641": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "u642": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "u643": {
+  "run": "mistral_base",
+  "model": "mistral:7b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ }
+}

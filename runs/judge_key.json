@@ -1,0 +1,2882 @@
+{
+ "t001": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t002": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t003": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t004": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t005": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t006": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t007": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t008": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t009": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t010": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t011": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t012": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t013": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t014": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t015": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t016": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t017": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t018": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t019": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t020": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t021": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t022": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t023": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t024": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t025": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t026": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t027": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t028": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t029": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t030": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t031": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t032": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t033": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t034": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t035": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t036": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t037": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t038": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t039": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t040": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t041": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t042": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t043": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t044": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t045": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t046": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t047": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t048": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t049": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t050": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t051": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t052": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t053": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t054": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t055": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t056": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t057": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t058": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t059": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t060": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t061": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t062": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t063": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t064": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t065": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t066": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t067": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t068": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t069": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t070": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t071": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t072": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t073": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t074": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t075": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t076": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t077": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t078": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t079": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t080": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t081": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t082": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t083": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t084": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t085": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t086": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t087": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t088": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t089": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t090": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t091": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t092": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t093": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t094": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t095": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t096": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t097": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t098": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t099": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t100": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t101": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t102": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t103": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t104": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t105": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t106": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t107": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t108": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t109": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t110": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t111": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t112": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t113": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t114": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t115": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t116": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t117": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t118": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t119": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t120": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t121": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t122": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t123": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t124": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t125": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t126": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t127": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t128": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t129": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t130": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t131": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t132": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t133": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t134": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t135": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t136": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t137": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t138": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t139": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t140": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t141": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t142": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t143": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t144": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t145": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t146": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t147": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t148": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t149": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t150": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t151": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t152": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t153": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t154": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t155": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t156": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t157": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t158": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t159": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t160": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t161": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t162": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t163": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t164": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t165": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t166": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t167": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t168": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t169": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t170": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t171": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t172": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t173": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t174": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t175": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t176": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t177": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t178": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t179": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t180": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t181": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t182": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t183": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t184": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t185": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t186": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t187": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t188": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t189": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t190": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t191": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t192": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t193": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t194": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t195": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t196": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t197": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t198": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t199": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t200": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t201": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t202": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t203": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t204": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t205": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t206": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t207": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t208": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t209": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t210": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t211": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t212": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t213": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t214": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t215": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t216": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t217": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t218": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t219": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t220": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t221": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t222": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t223": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t224": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t225": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t226": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t227": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t228": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t229": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t230": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t231": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t232": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t233": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t234": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t235": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t236": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t237": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t238": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t239": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t240": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t241": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t242": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t243": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t244": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t245": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t246": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t247": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t248": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t249": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t250": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t251": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t252": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t253": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t254": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t255": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t256": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t257": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t258": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t259": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t260": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t261": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t262": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t263": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t264": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t265": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t266": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t267": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t268": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t269": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t270": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t271": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t272": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t273": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t274": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t275": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t276": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t277": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t278": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t279": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t280": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t281": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t282": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t283": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t284": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t285": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t286": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t287": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t288": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t289": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t290": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t291": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t292": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t293": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t294": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t295": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t296": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t297": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t298": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t299": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t300": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t301": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t302": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t303": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t304": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t305": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t306": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t307": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t308": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t309": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t310": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t311": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t312": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t313": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t314": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t315": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t316": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t317": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t318": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t319": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t320": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t321": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t322": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t323": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t324": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t325": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t326": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t327": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t328": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t329": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t330": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "t331": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t332": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t333": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "t334": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t335": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t336": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "t337": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t338": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "t339": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t340": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "t341": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "t342": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "t343": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t344": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t345": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "t346": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "t347": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t348": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "t349": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "t350": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "t351": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "t352": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "t353": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t354": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "t355": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "human_human",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "t356": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "t357": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "ai_user",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "t358": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "t359": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "t360": {
+  "run": "llama_base",
+  "model": "llama3.1:8b-text-q4_K_M",
+  "domain": "ai_user",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ }
+}
