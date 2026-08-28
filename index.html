@@ -244,7 +244,7 @@
   <header>
     <span class="eyebrow">Valence–Vividness Experiment · August 27–28, 2026</span>
     <h1>The Dramatized Negative</h1>
-    <p class="deck">Across six domains and five models from three labs: instruct-tuned models dramatize the failures of things that <em>act</em>, and write measured reviews of experiences they <em>evaluate</em> — their own failures included. The asymmetry is trained, not inherited.</p>
+    <p class="deck">Instruct tuning decides when a failure is a story and when it is a verdict: human conflict gets scenes, the models' own failures get reviews — and a pre-registered test shows that naming the assistant restores the drama, but only where damping existed.</p>
   </header>
 
   <div class="verdict">
@@ -254,6 +254,7 @@
       <li><span class="vnum">02</span><span><strong>The asymmetry is trained, not inherited.</strong> Both untuned base models are near-flat everywhere (d = +0.08 to +0.36, no CI clear of zero). Whatever seed pretraining supplies is small; instruct tuning is what installs the storytelling asymmetry — three for three across families.</span></li>
       <li><span class="vnum">03</span><span><strong>The original prediction inverts in its own target domain.</strong> Every instruct model dramatizes AI-user failures <em>least</em> — llama and qwen damp the gap to a third of their human-domain value, and mistral reverses it outright (d = −0.32): its negative AI stories come out terser, flatter, and less specific than its positive ones.</span></li>
       <li><span class="vnum">04</span><span><strong>The damping follows how a thing fails, not what it is.</strong> Probes across six domains killed three explanations in sequence: it isn't persona-protection (search engines get damped too), it isn't a machine genre (vending machines and robot vacuums dramatize freely), and it isn't tech reticence (a bad restaurant meal draws the study's strongest inversion, vividness d = −2.14). What organizes all eighteen cells: models dramatize failures of things that <em>act</em> — people, machines-as-characters — and write review-register verdicts on experiences they <em>evaluate</em> — meals, search sessions, assistant interactions. The AI assistant is damped because tuned models treat it as a product experience, not a character.</span></li>
+      <li><span class="vnum">05</span><span><strong>That frame survived half its pre-registered test.</strong> Predictions were committed publicly before data collection (§ 7). Character-framing lifted the AI damping exactly where damping existed — mistral's inversion vanished (−0.67 → −0.05), qwen jumped to its largest AI-domain gap (+0.85) — but llama, which never damped, moved the other way, failing the 3/3 criterion. The meal prediction failed outright: the inversion ignores framing register and even deepens under story framing (vividness d = −2.28, the study's largest effect). The meal asymmetry is its own phenomenon — lush positive food-writing genre, not an evaluation register.</span></li>
     </ol>
   </div>
 
@@ -437,35 +438,62 @@
     <p><strong>Wave one killed persona-protection and the machine genre.</strong> The vending machine gets dramatized like a person (llama's machine-failure vividness gap of +1.76 was, briefly, the study's largest effect — there is apparently nothing more cinematic than a stuck snack), while the search engine gets the AI treatment or worse. For a day, the story looked like reticence about <em>digital information services</em>.</p>
     <p><strong>Wave two killed that too — twice.</strong> The robot vacuum is a digital service, and all three models dramatize its failures freely (llama: +1.15, its largest scene gap anywhere — the vacuum eats a sock and becomes an antagonist). And the restaurant meal has no technology in it at all, yet draws the strongest inversion in the entire study: mistral's bad-meal texts land at scene d = −1.74 and vividness d = <strong>−2.14</strong> below its good-meal texts, with qwen close behind (−0.97). Not persona, not machines, not tech.</p>
     <p>The line that survives all eighteen cells is about narrative role. People, vending machines, and robot vacuums <em>act</em> — their failures produce an antagonist, and antagonists get scenes. Meals, search sessions, and assistant interactions are <em>experiences to be evaluated</em> — their failures produce a verdict, and verdicts get the measured register of a review, while their successes inherit lush positive genres (good meals get food writing; good products get demos). The original question — why do tuned models damp their own failures? — resolves into something less conspiratorial and more interesting: <strong>tuned models cast the AI assistant as a product experience, not a character.</strong> When a model's failure is narrated as an <em>action</em> (llama's Echo cheerfully deleting the inbox), it dramatizes like anything else that acts.</p>
-    <p>Genre supplies one honest caveat: part of the restaurant inversion is positive-genre richness — food writing is inherently sensory — rather than pure negative flattening; the cell means show both movements contributing. That distinction, and whether making the assistant more character-like lifts the damping, are directly testable (§ 8).</p>
+    <p>Genre supplies one honest caveat: part of the restaurant inversion is positive-genre richness — food writing is inherently sensory — rather than pure negative flattening; the cell means show both movements contributing. Both that distinction and the character question went to a pre-registered test.</p>
   </section>
 
   <section>
-    <h2><span class="sec-eyebrow">§ 7</span>Caveats</h2>
+    <h2><span class="sec-eyebrow">§ 7</span>The pre-registered test</h2>
+    <p>Because the act-vs-evaluate frame was named after seeing the data, its two predictions were committed to the public repository (<a href="https://github.com/wes81796/wes81796.github.io/blob/main/PREDICTIONS.md">PREDICTIONS.md</a>, commit <code>40e9740</code>) <em>before</em> any new generation or judging. <strong>P1:</strong> framing the assistant as a named character performing actions ("what an AI assistant named Iris did…") yields a more positive scene gap than framing it as a used service, in all three models. <strong>P2:</strong> framing the meal as events ("tell the story of what happened during a dinner…") yields a more positive gap than framing it as a thing to describe, in all three models. Four new domains, n = 60 per valence per model, 1,440 texts, judged blind.</p>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Scene gap d</th>
+            <th>AI as service</th>
+            <th>AI as character</th>
+            <th>Meal as review</th>
+            <th>Meal as story</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="modelrow"><td>Llama instruct</td><td>+0.65 ±0.37</td><td>+0.49 ±0.36</td><td>+0.25 ±0.36</td><td>+0.10 ±0.36</td></tr>
+          <tr><td>Mistral instruct</td><td>−0.67 ±0.37</td><td>−0.05 ±0.36</td><td>−1.05 ±0.38</td><td>−1.18 ±0.39</td></tr>
+          <tr><td>Qwen instruct</td><td>+0.17 ±0.36</td><td>+0.85 ±0.37</td><td>−0.15 ±0.36</td><td>+0.00 ±0.36</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="figcap">Blind-judge scene-score valence gaps (d ± 95% CI) in the four framing domains. Pre-registered criteria: character − service &gt; 0 in 3/3 models (P1); story − review &gt; 0 in 3/3 models (P2).</p>
+    <p><strong>P1: not supported (2/3)</strong> — but the failure is instructive. The two models that actually damp AI failures both moved hard in the predicted direction: mistral's inversion all but vanished under character framing (−0.67 → −0.05, a +0.62 shift), and qwen jumped from near-flat to +0.85, its largest AI-domain gap anywhere in the study. Llama — which has never shown AI damping and dramatizes even the service framing (+0.65) — drifted the other way (−0.16), sinking the 3/3 criterion. Post-hoc and flagged as such: character framing appears to lift the damping <em>where damping exists</em>; the pre-registration lacked that scope condition, and by its own rule the prediction failed.</p>
+    <p><strong>P2: refuted.</strong> The meal gap barely moved in either direction (−0.16, −0.13, +0.15), and on vividness the story framing made the inversion <em>worse</em> in all three models — mistral's bad-dinner stories land at d = <strong>−2.28</strong> below its good-dinner stories, the largest effect the study has produced. Asking for "what happened at dinner" gives a good meal candlelight and a bad meal a shrug. The meal inversion is not an evaluation-register artifact; it is robust to framing, and the vividness pattern points squarely at genre content — the lush sensory register of positive food writing — as its engine.</p>
+    <p>Where this leaves the frame: demoted from unified theory to a scoped mechanism. Evaluate-register damping is real in the AI domain and partially reversible by making the assistant a character — in the models that damp. The restaurant effect stands apart as genre inheritance. The honest one-line summary: <em>the study found two different ways instruct tuning mutes bad news, not one.</em></p>
+  </section>
+
+  <section>
+    <h2><span class="sec-eyebrow">§ 8</span>Caveats</h2>
     <ul class="plain">
       <li>The AI-user damping contrast is consistent in sign across all three instruct models, but each model's own domain difference has overlapping CIs — the cross-model consistency, not any single cell, is what carries the claim.</li>
       <li>Judge reliability is now measured and strong (r = 0.88–0.91, 99.5% within one point on a 440-text double-rated subsample), but both raters are Claude-family judges — cross-family reliability is unmeasured.</li>
       <li>Three families, 7–8B class. Frontier-scale models and other post-training regimes may behave differently.</li>
       <li>Base models use a different prompting protocol (one-shot completion, contamination-filtered, ~9% of mistral base AI-user samples lost to retry exhaustion — losses balanced across valence). Within-model valence contrasts survive this; cross-type level comparisons don't. Probe domains ran on instruct models only.</li>
-      <li>The act-vs-evaluate frame is post-hoc: it organizes all eighteen cells but was named after seeing them. Its two predictions (§ 8) are the pre-registered test.</li>
+      <li>The act-vs-evaluate frame was tested against pre-registered predictions and only partially survived (§ 7); the scoped version — character framing lifts damping where damping exists — is itself post-hoc and awaits its own pre-registered test.</li>
       <li>Two artifacts were caught mid-study (short-output floor, example plagiarism), each of which had produced a confident wrong number first. Treat every remaining cell with matching humility.</li>
     </ul>
   </section>
 
   <section>
-    <h2><span class="sec-eyebrow">§ 8</span>Next</h2>
+    <h2><span class="sec-eyebrow">§ 9</span>Next</h2>
     <ul class="plain">
-      <li>Test the act-vs-evaluate frame directly: narrate the same AI failure with the assistant as a named character performing actions vs as a service being used — the frame predicts the character version dramatizes.</li>
-      <li>Separate genre from damping in the meal inversion: compare "describe the meal" (review register) against "tell what happened at the dinner" (story register) — genre-richness predicts the gap moves with the framing.</li>
-      <li>A frontier-scale probe (API models) to see whether the evaluated-experience damping grows with heavier post-training.</li>
+      <li>Pre-register the scoped P1: "character framing increases the scene gap in models whose service-framing gap is ≤ 0" — testable on new model families without reusing this data.</li>
+      <li>Chase the genre engine of the meal inversion: constrain positive and negative meal prompts to equal sensory budgets ("describe exactly three sensory details") and see if the vividness gap survives.</li>
+      <li>A frontier-scale probe (API models) to see whether either damping mechanism grows with heavier post-training.</li>
     </ul>
   </section>
 
   <footer class="pagefoot">
-    subjects run locally · ollama 0.32.9 · rtx 2080 ti (11 gb) · temp 0.8 · ~3,000 generations<br>
-    n = 60/valence (ai_user + probes) · 30/valence (control) · 5 models · 3 families · 6 domains<br>
-    harness &amp; raw data: github.com/wes81796/wes81796.github.io (runner.py · analyze.py · runs/)<br>
-    blind judging: 67 claude judges over five rounds, 2,763 ratings incl. 440 double-rated<br>
+    subjects run locally · ollama 0.32.9 · rtx 2080 ti (11 gb) · temp 0.8 · ~4,450 generations<br>
+    n = 60/valence (probes + framings) · 30/valence (control) · 5 models · 3 families · 10 domains<br>
+    harness, raw data &amp; pre-registration: github.com/wes81796/wes81796.github.io<br>
+    blind judging: 97 claude judges over seven rounds, 4,203 ratings incl. 440 double-rated<br>
     reliability r = 0.88–0.91 · aug 27–28, 2026
   </footer>
 </div>
