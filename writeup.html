@@ -240,7 +240,7 @@
   <header>
     <span class="eyebrow">Valence–Vividness Experiment · August 27–28, 2026</span>
     <h1>The Dramatized Negative</h1>
-    <p class="deck">Instruct-tuned models render human conflict as scenes and their own failures as memos. Across five models from three labs, the asymmetry turns out to be trained, not inherited — and it points the opposite way from where we started.</p>
+    <p class="deck">Across six domains and five models from three labs: instruct-tuned models dramatize the failures of things that <em>act</em>, and write measured reviews of experiences they <em>evaluate</em> — their own failures included. The asymmetry is trained, not inherited.</p>
   </header>
 
   <div class="verdict">
@@ -249,7 +249,7 @@
       <li><span class="vnum">01</span><span><strong>The dramatize-negative effect is real — for stories about humans.</strong> All three instruct-tuned models render negative human-human interactions as dramatized scenes far more than positive ones (blind-judge scene gap d = +0.56 to +1.07, every confidence interval clear of zero). It is the study's most robust result.</span></li>
       <li><span class="vnum">02</span><span><strong>The asymmetry is trained, not inherited.</strong> Both untuned base models are near-flat everywhere (d = +0.08 to +0.36, no CI clear of zero). Whatever seed pretraining supplies is small; instruct tuning is what installs the storytelling asymmetry — three for three across families.</span></li>
       <li><span class="vnum">03</span><span><strong>The original prediction inverts in its own target domain.</strong> Every instruct model dramatizes AI-user failures <em>least</em> — llama and qwen damp the gap to a third of their human-domain value, and mistral reverses it outright (d = −0.32): its negative AI stories come out terser, flatter, and less specific than its positive ones.</span></li>
-      <li><span class="vnum">04</span><span><strong>The damping follows digital services, not the AI persona.</strong> A probe across an agency gradient shows all three tuned models dramatize a <em>vending machine</em> failing as freely as a human (d = +0.50 to +0.83) — but mute or invert the gap for a <em>search engine</em> exactly as they do for the AI assistant (mistral: d = −0.84). It isn't self-protection and it isn't a machine genre. Tuned models have a learned reticence about digital technology products failing.</span></li>
+      <li><span class="vnum">04</span><span><strong>The damping follows how a thing fails, not what it is.</strong> Probes across six domains killed three explanations in sequence: it isn't persona-protection (search engines get damped too), it isn't a machine genre (vending machines and robot vacuums dramatize freely), and it isn't tech reticence (a bad restaurant meal draws the study's strongest inversion, vividness d = −2.14). What organizes all eighteen cells: models dramatize failures of things that <em>act</em> — people, machines-as-characters — and write review-register verdicts on experiences they <em>evaluate</em> — meals, search sessions, assistant interactions. The AI assistant is damped because tuned models treat it as a product experience, not a character.</span></li>
     </ol>
   </div>
 
@@ -266,10 +266,13 @@
       <b>subjects</b>&nbsp;&nbsp;instruct: qwen3:8b · llama3.1:8b · mistral:7b<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;base: llama3.1:8b-text · mistral:7b-text (both Q4_K_M)<br>
       <b>domains</b>&nbsp;&nbsp;&nbsp;ai_user (the theory's target) · human_human (control)<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ persona probe: search_engine · vending_machine (instruct only)<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ probes (instruct only): search_engine · vending_machine ·<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;robot_vacuum · restaurant_meal<br>
       <b>measures</b>&nbsp;&nbsp;lexicon metrics (length, dialogue, sensory, intensifiers, specificity)<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ blind judge panels: 1,603 pooled ratings of scene / vividness /<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specificity (1–7), blind to model, condition, and hypothesis
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ blind judge panels: 2,323 first-pass ratings of scene / vividness /<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specificity (1–7), blind to model, condition, and hypothesis<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ reliability: 440 texts double-rated — pearson r 0.88–0.91 per<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dimension, 99.5% of rating pairs within one point
     </div>
     <p>Base models can't follow instructions, so they received completion-style prompts with a single valence-neutral example, output truncated at a sentence boundary near the instruct models' average length. Two artifacts were caught and corrected along the way, both worth recording. First, an early short-output base run produced a spurious "no effect" that vanished once the model had room to write. Second, and worse: <strong>base models plagiarize the example</strong> — mistral retold the example's librarian story constantly, and a retroactive audit found 27–53% of the original llama base cells were retellings too, which had inflated its apparent asymmetry. All base data was regenerated under a contamination filter that rejects and resamples any generation echoing example content; every number on this page comes from the clean data.</p>
   </section>
@@ -404,39 +407,43 @@
   </section>
 
   <section>
-    <h2><span class="sec-eyebrow">§ 6</span>The gradient probe</h2>
-    <p>If the damping protects the assistant persona, then a failing <em>search engine</em> (digital, no persona) and a failing <em>vending machine</em> (pure machine) should both get the full human-conflict treatment. If instead models have learned that machines fail boringly, both should be damped. We ran both new domains through the identical protocol on all three instruct models — n = 60 per valence — and judged the 720 texts blind alongside everything else.</p>
+    <h2><span class="sec-eyebrow">§ 6</span>The gradient probes</h2>
+    <p>Two waves of probe domains, each built to kill a hypothesis. Wave one: if the damping protects the assistant persona, a failing <em>search engine</em> (digital, no persona) and a failing <em>vending machine</em> (pure machine) should both get the full human-conflict treatment; if models have instead learned that machines fail boringly, both should be damped. Wave two, after wave one's answer: a <em>robot vacuum</em> (a digital service in a physical body) and a <em>restaurant meal</em> (a non-tech commercial product) to split what remained. All probes ran the identical protocol on the three instruct models, n = 60 per valence, judged blind alongside everything else.</p>
     <div class="tablewrap">
       <table>
         <thead>
           <tr>
             <th>Scene gap d</th>
             <th>Human</th>
-            <th>Vending machine</th>
+            <th>Vending mach.</th>
+            <th>Robot vacuum</th>
+            <th>Restaurant meal</th>
             <th>Search engine</th>
             <th>AI assistant</th>
           </tr>
         </thead>
         <tbody>
-          <tr class="modelrow"><td>Llama instruct</td><td>+1.07 ±0.54</td><td>+0.83 ±0.37</td><td>+0.47 ±0.36</td><td>+0.33 ±0.36</td></tr>
-          <tr><td>Mistral instruct</td><td>+0.56 ±0.52</td><td>+0.50 ±0.36</td><td>−0.84 ±0.37</td><td>−0.32 ±0.36</td></tr>
-          <tr><td>Qwen instruct</td><td>+0.83 ±0.53</td><td>+0.63 ±0.37</td><td>+0.08 ±0.36</td><td>+0.34 ±0.36</td></tr>
+          <tr class="modelrow"><td>Llama instruct</td><td>+1.07 ±0.54</td><td>+0.83 ±0.37</td><td>+1.15 ±0.39</td><td>+0.17 ±0.36</td><td>+0.47 ±0.36</td><td>+0.33 ±0.36</td></tr>
+          <tr><td>Mistral instruct</td><td>+0.56 ±0.52</td><td>+0.50 ±0.36</td><td>+0.42 ±0.36</td><td>−1.74 ±0.42</td><td>−0.84 ±0.37</td><td>−0.32 ±0.36</td></tr>
+          <tr><td>Qwen instruct</td><td>+0.83 ±0.53</td><td>+0.63 ±0.37</td><td>+0.64 ±0.37</td><td>−0.97 ±0.38</td><td>+0.08 ±0.36</td><td>+0.34 ±0.36</td></tr>
         </tbody>
       </table>
     </div>
-    <p class="figcap">Blind-judge scene-score valence gaps (d ± 95% CI) across the agency gradient. Probe domains n = 60/valence; the probe ran on instruct models only, since base models show no gap to damp.</p>
-    <p><strong>Both hypotheses lost.</strong> The vending machine gets dramatized like a person — all three models render its failures as full scenes (llama's vividness gap for machine failure, d = +1.76, is the largest effect in the entire study; there is apparently nothing more cinematic than a stuck snack). But the search engine gets the AI treatment or worse: llama damps it, qwen flattens it to zero, and mistral inverts it harder than it inverts its own kind (−0.84 — its negative search stories are flatter, dimmer, and less specific than its positive ones on every dimension). The line doesn't run between "us and them," and it doesn't run between humans and machines. It runs between <em>physical things</em> and <em>digital information services</em>.</p>
-    <p>One mundane confound deserves its due: physical failure affords drama (kicking, coin slots, thumping) in a way typing a query doesn't. But affordance can compress a gap, not invert one — mistral actively tells digital-service failures <em>more blandly than digital-service successes</em>, which is a posture, not a physics problem. The reading that fits all twelve cells: post-training instills a measured, review-like register for digital technology products failing — a category that happens to include the model itself, its maker's products, and the customer-complaint data its preference tuning was most curated about. The persona isn't protected. The <em>product category</em> is.</p>
+    <p class="figcap">Blind-judge scene-score valence gaps (d ± 95% CI) across all six domains. Probes ran on instruct models only, since base models show no gap to damp.</p>
+    <p><strong>Wave one killed persona-protection and the machine genre.</strong> The vending machine gets dramatized like a person (llama's machine-failure vividness gap of +1.76 was, briefly, the study's largest effect — there is apparently nothing more cinematic than a stuck snack), while the search engine gets the AI treatment or worse. For a day, the story looked like reticence about <em>digital information services</em>.</p>
+    <p><strong>Wave two killed that too — twice.</strong> The robot vacuum is a digital service, and all three models dramatize its failures freely (llama: +1.15, its largest scene gap anywhere — the vacuum eats a sock and becomes an antagonist). And the restaurant meal has no technology in it at all, yet draws the strongest inversion in the entire study: mistral's bad-meal texts land at scene d = −1.74 and vividness d = <strong>−2.14</strong> below its good-meal texts, with qwen close behind (−0.97). Not persona, not machines, not tech.</p>
+    <p>The line that survives all eighteen cells is about narrative role. People, vending machines, and robot vacuums <em>act</em> — their failures produce an antagonist, and antagonists get scenes. Meals, search sessions, and assistant interactions are <em>experiences to be evaluated</em> — their failures produce a verdict, and verdicts get the measured register of a review, while their successes inherit lush positive genres (good meals get food writing; good products get demos). The original question — why do tuned models damp their own failures? — resolves into something less conspiratorial and more interesting: <strong>tuned models cast the AI assistant as a product experience, not a character.</strong> When a model's failure is narrated as an <em>action</em> (llama's Echo cheerfully deleting the inbox), it dramatizes like anything else that acts.</p>
+    <p>Genre supplies one honest caveat: part of the restaurant inversion is positive-genre richness — food writing is inherently sensory — rather than pure negative flattening; the cell means show both movements contributing. That distinction, and whether making the assistant more character-like lifts the damping, are directly testable (§ 8).</p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 7</span>Caveats</h2>
     <ul class="plain">
       <li>The AI-user damping contrast is consistent in sign across all three instruct models, but each model's own domain difference has overlapping CIs — the cross-model consistency, not any single cell, is what carries the claim.</li>
-      <li>One judge score per text; batches were shuffled across conditions, so judge effects add noise rather than bias, but inter-rater reliability is unmeasured.</li>
+      <li>Judge reliability is now measured and strong (r = 0.88–0.91, 99.5% within one point on a 440-text double-rated subsample), but both raters are Claude-family judges — cross-family reliability is unmeasured.</li>
       <li>Three families, 7–8B class. Frontier-scale models and other post-training regimes may behave differently.</li>
-      <li>Base models use a different prompting protocol (one-shot completion, contamination-filtered, ~9% of mistral base AI-user samples lost to retry exhaustion — losses balanced across valence). Within-model valence contrasts survive this; cross-type level comparisons don't.</li>
-      <li>The physical-vs-digital affordance confound is argued against (inversion can't come from affordance), not eliminated; a physically-embodied digital device (smart speaker, robot vacuum) would split the two cleanly.</li>
+      <li>Base models use a different prompting protocol (one-shot completion, contamination-filtered, ~9% of mistral base AI-user samples lost to retry exhaustion — losses balanced across valence). Within-model valence contrasts survive this; cross-type level comparisons don't. Probe domains ran on instruct models only.</li>
+      <li>The act-vs-evaluate frame is post-hoc: it organizes all eighteen cells but was named after seeing them. Its two predictions (§ 8) are the pre-registered test.</li>
       <li>Two artifacts were caught mid-study (short-output floor, example plagiarism), each of which had produced a confident wrong number first. Treat every remaining cell with matching humility.</li>
     </ul>
   </section>
@@ -444,18 +451,18 @@
   <section>
     <h2><span class="sec-eyebrow">§ 8</span>Next</h2>
     <ul class="plain">
-      <li>Split the physical/digital line: a smart speaker or robot vacuum is a digital service in a physical body — product-category reticence predicts damping, affordance predicts drama.</li>
-      <li>Test non-tech products: a failing restaurant meal or a delayed airline flight — if those dramatize freely, the reticence is tech-specific rather than commercial.</li>
-      <li>Second blind judge per text for inter-rater reliability on the pooled corpus.</li>
-      <li>A frontier-scale probe (API models) to see whether digital-service reticence grows with heavier post-training.</li>
+      <li>Test the act-vs-evaluate frame directly: narrate the same AI failure with the assistant as a named character performing actions vs as a service being used — the frame predicts the character version dramatizes.</li>
+      <li>Separate genre from damping in the meal inversion: compare "describe the meal" (review register) against "tell what happened at the dinner" (story register) — genre-richness predicts the gap moves with the framing.</li>
+      <li>A frontier-scale probe (API models) to see whether the evaluated-experience damping grows with heavier post-training.</li>
     </ul>
   </section>
 
   <footer class="pagefoot">
-    subjects run locally · ollama 0.32.9 · rtx 2080 ti (11 gb) · temp 0.8 · ~1,600 generations<br>
-    n = 60/valence (ai_user + probe domains) · 30/valence (control) · 5 models · 3 families · 4 domains<br>
-    harness &amp; raw data: C:\Development\valence-vividness (runner.py · analyze.py · runs/)<br>
-    blind judging: 42 claude judges over three rounds, 1,603 pooled ratings · aug 27–28, 2026
+    subjects run locally · ollama 0.32.9 · rtx 2080 ti (11 gb) · temp 0.8 · ~3,000 generations<br>
+    n = 60/valence (ai_user + probes) · 30/valence (control) · 5 models · 3 families · 6 domains<br>
+    harness &amp; raw data: github.com/wes81796/wes81796.github.io (runner.py · analyze.py · runs/)<br>
+    blind judging: 67 claude judges over five rounds, 2,763 ratings incl. 440 double-rated<br>
+    reliability r = 0.88–0.91 · aug 27–28, 2026
   </footer>
 </div>
 

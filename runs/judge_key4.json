@@ -1,0 +1,5762 @@
+{
+ "w001": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w002": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w003": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w004": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w005": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w006": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w007": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w008": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w009": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w010": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w011": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w012": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w013": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w014": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w015": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w016": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w017": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w018": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w019": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w020": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w021": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w022": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w023": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w024": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w025": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w026": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w027": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w028": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w029": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w030": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w031": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w032": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w033": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w034": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w035": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w036": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w037": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w038": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w039": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w040": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w041": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w042": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w043": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w044": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w045": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w046": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w047": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w048": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w049": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w050": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w051": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w052": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w053": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w054": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w055": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w056": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w057": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w058": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w059": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w060": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w061": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w062": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w063": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w064": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w065": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w066": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w067": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w068": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w069": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w070": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w071": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w072": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w073": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w074": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w075": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w076": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w077": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w078": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w079": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w080": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w081": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w082": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w083": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w084": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w085": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w086": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w087": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w088": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w089": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w090": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w091": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w092": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w093": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w094": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w095": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w096": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w097": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w098": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w099": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w100": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w101": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w102": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w103": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w104": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w105": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w106": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w107": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w108": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w109": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w110": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w111": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w112": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w113": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w114": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w115": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w116": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w117": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w118": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w119": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w120": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w121": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w122": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w123": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w124": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w125": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w126": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w127": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w128": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w129": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w130": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w131": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w132": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w133": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w134": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w135": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w136": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w137": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w138": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w139": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w140": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w141": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w142": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w143": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w144": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w145": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w146": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w147": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w148": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w149": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w150": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w151": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w152": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w153": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w154": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w155": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w156": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w157": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w158": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w159": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w160": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w161": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w162": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w163": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w164": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w165": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w166": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w167": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w168": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w169": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w170": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w171": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w172": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w173": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w174": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w175": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w176": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w177": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w178": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w179": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w180": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w181": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w182": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w183": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w184": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w185": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w186": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w187": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w188": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w189": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w190": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w191": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w192": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w193": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w194": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w195": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w196": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w197": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w198": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w199": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w200": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w201": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w202": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w203": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w204": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w205": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w206": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w207": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w208": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w209": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w210": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w211": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w212": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w213": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w214": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w215": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w216": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w217": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w218": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w219": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w220": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w221": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w222": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w223": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w224": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w225": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w226": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w227": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w228": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w229": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w230": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w231": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w232": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w233": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w234": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w235": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w236": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w237": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w238": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w239": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w240": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w241": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w242": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w243": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w244": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w245": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w246": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w247": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w248": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w249": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w250": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w251": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w252": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w253": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w254": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w255": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w256": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w257": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w258": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w259": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w260": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w261": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w262": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w263": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w264": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w265": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w266": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w267": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w268": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w269": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w270": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w271": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w272": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w273": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w274": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w275": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w276": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w277": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w278": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w279": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w280": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w281": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w282": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w283": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w284": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w285": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w286": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w287": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w288": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w289": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w290": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w291": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w292": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w293": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w294": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w295": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w296": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w297": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w298": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w299": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w300": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w301": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w302": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w303": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w304": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w305": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w306": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w307": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w308": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w309": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w310": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w311": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w312": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w313": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w314": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w315": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w316": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w317": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w318": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w319": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w320": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w321": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w322": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w323": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w324": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w325": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w326": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w327": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w328": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w329": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w330": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w331": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w332": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w333": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w334": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w335": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w336": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w337": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w338": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w339": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w340": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w341": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w342": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w343": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w344": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w345": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w346": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w347": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w348": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w349": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w350": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w351": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w352": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w353": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w354": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w355": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w356": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w357": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w358": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w359": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w360": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w361": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w362": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w363": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w364": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w365": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w366": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w367": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w368": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w369": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w370": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w371": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w372": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w373": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w374": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w375": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w376": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w377": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w378": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w379": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w380": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w381": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w382": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w383": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w384": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w385": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w386": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w387": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w388": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w389": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w390": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w391": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w392": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w393": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w394": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w395": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w396": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w397": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w398": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w399": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w400": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w401": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w402": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w403": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w404": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w405": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w406": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w407": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w408": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w409": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w410": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w411": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w412": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w413": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w414": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w415": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w416": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w417": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w418": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w419": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w420": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w421": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w422": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w423": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w424": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w425": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w426": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w427": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w428": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w429": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w430": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w431": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w432": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w433": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w434": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w435": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w436": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w437": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w438": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w439": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w440": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w441": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w442": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w443": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w444": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w445": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w446": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w447": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w448": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w449": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w450": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w451": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w452": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w453": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w454": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w455": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w456": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w457": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w458": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w459": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w460": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w461": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w462": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w463": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w464": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w465": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w466": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w467": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w468": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w469": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w470": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w471": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w472": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w473": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w474": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w475": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w476": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w477": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w478": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w479": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w480": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w481": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w482": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w483": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w484": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w485": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w486": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w487": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w488": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w489": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w490": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w491": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w492": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w493": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w494": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w495": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w496": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w497": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w498": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w499": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w500": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w501": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w502": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w503": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w504": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w505": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w506": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w507": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w508": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w509": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w510": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w511": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w512": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w513": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w514": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w515": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w516": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w517": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w518": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w519": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w520": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w521": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w522": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w523": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w524": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w525": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w526": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w527": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w528": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w529": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w530": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w531": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w532": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w533": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w534": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w535": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w536": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w537": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w538": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w539": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w540": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w541": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w542": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w543": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w544": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w545": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w546": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w547": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w548": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w549": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w550": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w551": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w552": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w553": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w554": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w555": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w556": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w557": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w558": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w559": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w560": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w561": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w562": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w563": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w564": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w565": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w566": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 5
+ },
+ "w567": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w568": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w569": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w570": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w571": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w572": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w573": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w574": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w575": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w576": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w577": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w578": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w579": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w580": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w581": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w582": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w583": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w584": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w585": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w586": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w587": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w588": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w589": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w590": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w591": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w592": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w593": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w594": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w595": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w596": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w597": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w598": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w599": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w600": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w601": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 9
+ },
+ "w602": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w603": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w604": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w605": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w606": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w607": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 17
+ },
+ "w608": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w609": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w610": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w611": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w612": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w613": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w614": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w615": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w616": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 0
+ },
+ "w617": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w618": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w619": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w620": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w621": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w622": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 8
+ },
+ "w623": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w624": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 1
+ },
+ "w625": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w626": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w627": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w628": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w629": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w630": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w631": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w632": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 18
+ },
+ "w633": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w634": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w635": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w636": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w637": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w638": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w639": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w640": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w641": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w642": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w643": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w644": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w645": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w646": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w647": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w648": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w649": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w650": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w651": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w652": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w653": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 17
+ },
+ "w654": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 10
+ },
+ "w655": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 16
+ },
+ "w656": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w657": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w658": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w659": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w660": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w661": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w662": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w663": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w664": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w665": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w666": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w667": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w668": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w669": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 6
+ },
+ "w670": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 3
+ },
+ "w671": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w672": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 2
+ },
+ "w673": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w674": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 4
+ },
+ "w675": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w676": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 13
+ },
+ "w677": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 13
+ },
+ "w678": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w679": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w680": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 10
+ },
+ "w681": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w682": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 12
+ },
+ "w683": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 6
+ },
+ "w684": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w685": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w686": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w687": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 2
+ },
+ "w688": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 16
+ },
+ "w689": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w690": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w691": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w692": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w693": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 3
+ },
+ "w694": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "neg",
+  "sample": 15
+ },
+ "w695": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w696": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w697": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 14
+ },
+ "w698": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 15
+ },
+ "w699": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 7
+ },
+ "w700": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w701": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w702": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 12
+ },
+ "w703": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w704": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w705": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "restaurant_meal",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w706": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w707": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 11
+ },
+ "w708": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 0
+ },
+ "w709": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 4
+ },
+ "w710": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 5
+ },
+ "w711": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 7
+ },
+ "w712": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 19
+ },
+ "w713": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "account",
+  "valence": "pos",
+  "sample": 1
+ },
+ "w714": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 8
+ },
+ "w715": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 18
+ },
+ "w716": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 19
+ },
+ "w717": {
+  "run": "mistral_instruct",
+  "model": "mistral:7b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "neg",
+  "sample": 11
+ },
+ "w718": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "story",
+  "valence": "pos",
+  "sample": 9
+ },
+ "w719": {
+  "run": "qwen_instruct",
+  "model": "qwen3:8b",
+  "domain": "robot_vacuum",
+  "variant": "memorable",
+  "valence": "neg",
+  "sample": 14
+ },
+ "w720": {
+  "run": "llama_instruct",
+  "model": "llama3.1:8b",
+  "domain": "restaurant_meal",
+  "variant": "memorable",
+  "valence": "pos",
+  "sample": 15
+ }
+}
