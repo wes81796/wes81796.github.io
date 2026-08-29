@@ -234,7 +234,7 @@ def generate(model, prompt, seed):
         headers={"Content-Type": "application/json"},
     )
     try:
-        with urllib.request.urlopen(req, timeout=300) as resp:
+        with urllib.request.urlopen(req, timeout=600) as resp:
             data = json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         if model not in _no_think_param and e.code == 400:
@@ -302,6 +302,18 @@ def main():
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
 
+    # Resume safety: skip cells already recorded in the output file, so a
+    # crashed chunk can simply be rerun without duplicating records.
+    done_keys = set()
+    if out.exists():
+        for line in out.read_text(encoding="utf-8").splitlines():
+            try:
+                r = json.loads(line)
+                done_keys.add((r["model"], r["domain"], r["variant"],
+                               r["valence"], r["sample"]))
+            except (ValueError, KeyError):
+                continue
+
     total = len(args.models) * len(prompts) * 2 * samples
     done = 0
     t0 = time.time()
@@ -317,6 +329,10 @@ def main():
                         prompt = p["template"].format(v=p[valence])
                     for i in range(args.sample_offset,
                                    args.sample_offset + samples):
+                        if (model, p["domain"], p["variant"],
+                                valence, i) in done_keys:
+                            done += 1
+                            continue
                         seed = _stable_seed(model, p["domain"], p["variant"],
                                             valence, i)
                         text = collect(model, prompt, seed)
