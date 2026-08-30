@@ -1,4 +1,16 @@
-<title>The Dramatized Negative</title>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FAF9F6">
+<meta name="description" content="A valence–vividness experiment with local language models: methods, results, failed predictions, and open data.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Dramatized Negative — Wes">
+<meta property="og:description" content="A valence–vividness experiment with local language models.">
+<meta property="og:url" content="https://wes81796.github.io/writeup.html">
+<meta name="twitter:card" content="summary">
+<title>The Dramatized Negative — Wes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -51,6 +63,16 @@
     -webkit-font-smoothing: antialiased;
   }
   .page { max-width: 44rem; margin: 0 auto; padding: 4rem 1.25rem 5rem; }
+
+  .portfolio-nav {
+    max-width: 44rem; margin: 0 auto; padding: 1.2rem 1.25rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    border-bottom: 1px solid var(--rule);
+    font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.72rem;
+  }
+  .portfolio-nav a { color: var(--ink); text-decoration: none; }
+  .portfolio-nav a:hover { color: var(--accent); }
+  .portfolio-nav .home { font-weight: 500; }
 
   .eyebrow {
     font-family: "IBM Plex Mono", ui-monospace, monospace;
@@ -235,6 +257,13 @@
     color: var(--muted);
   }
 </style>
+</head>
+<body>
+
+<nav class="portfolio-nav" aria-label="Portfolio navigation">
+  <a class="home" href="index.html">← Wes / Projects</a>
+  <a href="https://github.com/wes81796/wes81796.github.io" target="_blank" rel="noreferrer">Data &amp; code ↗</a>
+</nav>
 
 <div class="page">
   <header>
@@ -559,3 +588,5 @@
     });
   })();
 </script>
+</body>
+</html>
