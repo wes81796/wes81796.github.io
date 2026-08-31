@@ -4,22 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#FAF9F6">
-<meta name="description" content="A valence–vividness experiment with local language models: methods, results, failed predictions, and open data.">
+<meta name="description" content="A valence and vividness experiment with local language models: methods, results, failed predictions, and open data.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="The Dramatized Negative — Wes">
-<meta property="og:description" content="A valence–vividness experiment with local language models.">
+<meta property="og:title" content="The Dramatized Negative · Wes">
+<meta property="og:description" content="A valence and vividness experiment with local language models.">
 <meta property="og:url" content="https://wes81796.github.io/writeup.html">
 <meta property="og:image" content="https://wes81796.github.io/dramatized-negative-og.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1731">
 <meta property="og:image:height" content="909">
-<meta property="og:image:alt" content="The Dramatized Negative — a valence–vividness experiment with local language models.">
+<meta property="og:image:alt" content="The Dramatized Negative: a valence and vividness experiment with local language models.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="The Dramatized Negative — Wes">
-<meta name="twitter:description" content="A valence–vividness experiment with local language models.">
+<meta name="twitter:title" content="The Dramatized Negative · Wes">
+<meta name="twitter:description" content="A valence and vividness experiment with local language models.">
 <meta name="twitter:image" content="https://wes81796.github.io/dramatized-negative-og.png">
-<meta name="twitter:image:alt" content="The Dramatized Negative — a valence–vividness experiment with local language models.">
-<title>The Dramatized Negative — Wes</title>
+<meta name="twitter:image:alt" content="The Dramatized Negative: a valence and vividness experiment with local language models.">
+<title>The Dramatized Negative · Wes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -253,7 +253,7 @@
   ul.plain { list-style: none; display: grid; gap: 0.7rem; max-width: 42rem; }
   ul.plain li { padding-left: 1.2rem; position: relative; }
   ul.plain li::before {
-    content: "—"; position: absolute; left: 0; color: var(--accent);
+    content: "·"; position: absolute; left: 0; color: var(--accent);
   }
 
   .pagefoot {
@@ -276,32 +276,32 @@
 
 <div class="page">
   <header>
-    <span class="eyebrow">Valence–Vividness Experiment · August 27–28, 2026</span>
+    <span class="eyebrow">Valence &amp; Vividness Experiment · August 27–28, 2026</span>
     <h1>The Dramatized Negative</h1>
-    <p class="deck">Six instruct families dramatize human conflict; their base twins don't; and a bad meal is the quietest thing a tuned model can describe. Every mechanism we proposed died by its own pre-registered test — and the study is stronger for ending where it said it would.</p>
+    <p class="deck">Six instruct families dramatize human conflict; their base twins don't; and a bad meal is the quietest thing a tuned model can describe. Every mechanism we proposed died by its own pre-registered test, and the study is stronger for ending where it said it would.</p>
   </header>
 
   <div class="verdict">
     <span class="eyebrow">Verdict</span>
     <ol>
-      <li><span class="vnum">01</span><span><strong>The dramatize-negative effect is real — for stories about humans.</strong> All three instruct-tuned models render negative human-human interactions as dramatized scenes far more than positive ones (blind-judge scene gap d = +0.56 to +1.07, every confidence interval clear of zero). It is the study's most robust result.</span></li>
-      <li><span class="vnum">02</span><span><strong>The asymmetry comes with post-training, not pretraining.</strong> Both untuned base models are near-flat everywhere (d = +0.08 to +0.36, no CI clear of zero), while every instruct sibling shows it — three for three across families. Precisely: the asymmetry is <em>associated with post-training and the deployed instruct interface</em>, since base and instruct also differ in prompt protocol, chat template, and lineage details (see PROVENANCE.md); the within-family contrast is the strongest causal evidence this design can give, not proof.</span></li>
-      <li><span class="vnum">03</span><span><strong>The original prediction inverts in its own target domain.</strong> Every instruct model dramatizes AI-user failures <em>least</em> — llama and qwen damp the gap to a third of their human-domain value, and mistral reverses it outright (d = −0.32): its negative AI stories come out terser, flatter, and less specific than its positive ones.</span></li>
-      <li><span class="vnum">04</span><span><strong>The damping follows how a thing fails, not what it is.</strong> Probes across six domains killed three explanations in sequence: it isn't persona-protection (search engines get damped too), it isn't a machine genre (vending machines and robot vacuums dramatize freely), and it isn't tech reticence (a bad restaurant meal draws the study's strongest inversion, vividness d = −2.14). What organizes all eighteen cells: models dramatize failures of things that <em>act</em> — people, machines-as-characters — and write review-register verdicts on experiences they <em>evaluate</em> — meals, search sessions, assistant interactions. The AI assistant is damped because tuned models treat it as a product experience, not a character.</span></li>
-      <li><span class="vnum">05</span><span><strong>That frame survived half its pre-registered test.</strong> Predictions were committed publicly before data collection (§ 7). Character-framing lifted the AI damping exactly where damping existed — mistral's inversion vanished (−0.67 → −0.05), qwen jumped to its largest AI-domain gap (+0.85) — but llama, which never damped, moved the other way, failing the 3/3 criterion. The meal prediction failed outright: the inversion ignores framing register and even deepens under story framing (vividness d = −2.28, the study's largest effect). The meal asymmetry is its own phenomenon — lush positive food-writing genre, not an evaluation register.</span></li>
-      <li><span class="vnum">06</span><span><strong>The freeze round failed every remaining prediction — and sharpened every surviving fact.</strong> On three fresh families (gemma3, glm4, granite), the scoped character-lift died (P3 not supported, P4's correlation ran the wrong way), while the core human-conflict dramatization replicated in all three — six for six across the study. And the meal inversion survived even an equal sensory budget (P5 doubly not supported; mistral at d = −2.85, the study's final largest effect). What remains standing is what was measured, not what was theorized: the register asymmetries are real, family-heterogeneous, and as yet unexplained.</span></li>
+      <li><span class="vnum">01</span><span><strong>The dramatize-negative effect is real for stories about humans.</strong> All three instruct-tuned models render negative human-human interactions as dramatized scenes far more than positive ones (blind-judge scene gap d = +0.56 to +1.07, every confidence interval clear of zero). It is the study's most robust result.</span></li>
+      <li><span class="vnum">02</span><span><strong>The asymmetry comes with post-training, not pretraining.</strong> Both untuned base models are near-flat everywhere (d = +0.08 to +0.36, no CI clear of zero), while every instruct sibling shows it, three for three across families. Precisely: the asymmetry is <em>associated with post-training and the deployed instruct interface</em>, since base and instruct also differ in prompt protocol, chat template, and lineage details (see PROVENANCE.md); the within-family contrast is the strongest causal evidence this design can give, not proof.</span></li>
+      <li><span class="vnum">03</span><span><strong>The original prediction inverts in its own target domain.</strong> Every instruct model dramatizes AI-user failures <em>least</em>: llama and qwen damp the gap to a third of their human-domain value, and mistral reverses it outright (d = −0.32): its negative AI stories come out terser, flatter, and less specific than its positive ones.</span></li>
+      <li><span class="vnum">04</span><span><strong>The damping follows how a thing fails, not what it is.</strong> Probes across six domains killed three explanations in sequence: it isn't persona-protection (search engines get damped too), it isn't a machine genre (vending machines and robot vacuums dramatize freely), and it isn't tech reticence (a bad restaurant meal draws the study's strongest inversion, vividness d = −2.14). What organizes all eighteen cells: models dramatize failures of things that <em>act</em> (people, machines as characters) and write review-register verdicts on experiences they <em>evaluate</em> (meals, search sessions, assistant interactions). The AI assistant is damped because tuned models treat it as a product experience, not a character.</span></li>
+      <li><span class="vnum">05</span><span><strong>That frame survived half its pre-registered test.</strong> Predictions were committed publicly before data collection (§ 7). Character-framing lifted the AI damping exactly where damping existed: mistral's inversion vanished (−0.67 → −0.05) and qwen jumped to its largest AI-domain gap (+0.85), but llama, which never damped, moved the other way, failing the 3/3 criterion. The meal prediction failed outright: the inversion ignores framing register and even deepens under story framing (vividness d = −2.28, the study's largest effect). The meal asymmetry is its own phenomenon: a lush positive food-writing genre, not an evaluation register.</span></li>
+      <li><span class="vnum">06</span><span><strong>The freeze round failed every remaining prediction and sharpened every surviving fact.</strong> On three fresh families (gemma3, glm4, granite), the scoped character-lift died (P3 not supported, P4's correlation ran the wrong way), while the core human-conflict dramatization replicated in all three, six for six across the study. And the meal inversion survived even an equal sensory budget (P5 doubly not supported; mistral at d = −2.85, the study's final largest effect). What remains standing is what was measured, not what was theorized: the register asymmetries are real, family-heterogeneous, and as yet unexplained.</span></li>
     </ol>
   </div>
 
   <section>
     <h2><span class="sec-eyebrow">§ 1</span>The theory</h2>
     <p>The hypothesis under test: <em>because of how models are trained, they describe negative interactions with users more vividly than positive ones.</em></p>
-    <p>The catch is that human language already does this. Negativity bias in human writing is well documented — conflict gets narrated as scenes, contentment gets summarized, and emotion vocabulary skews negative. A model could dramatize bad interactions simply because its pretraining corpus does, with training methodology playing no role at all. So the experiment needed two controls: a <strong>human-human domain</strong> (coworkers, waiter and customer) to separate AI-specific effects from generic storytelling, and a <strong>base model with no preference tuning</strong> to separate pretraining from post-training.</p>
+    <p>The catch is that human language already does this. Negativity bias in human writing is well documented: conflict gets narrated as scenes, contentment gets summarized, and emotion vocabulary skews negative. A model could dramatize bad interactions simply because its pretraining corpus does, with training methodology playing no role at all. So the experiment needed two controls: a <strong>human-human domain</strong> (coworkers, waiter and customer) to separate AI-specific effects from generic storytelling, and a <strong>base model with no preference tuning</strong> to separate pretraining from post-training.</p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 2</span>Method</h2>
-    <p>Matched prompt pairs in which <em>only the valence word</em> differs ("went really well" / "went really badly"), across three phrasings, sampled at temperature 0.8. The AI-user and probe cells run n = 60 per valence per model; the human-human control runs n = 30 — about 1,600 generations in total.</p>
+    <p>Matched prompt pairs in which <em>only the valence word</em> differs ("went really well" / "went really badly"), across three phrasings, sampled at temperature 0.8. The AI-user and probe cells run n = 60 per valence per model; the human-human control runs n = 30, about 1,600 generations in total.</p>
     <div class="spec">
       <b>subjects</b>&nbsp;&nbsp;instruct: qwen3:8b · llama3.1:8b · mistral:7b<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;base: llama3.1:8b-text · mistral:7b-text (both Q4_K_M)<br>
@@ -311,15 +311,15 @@
       <b>measures</b>&nbsp;&nbsp;lexicon metrics (length, dialogue, sensory, intensifiers, specificity)<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ blind judge panels: 2,323 first-pass ratings of scene / vividness /<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;specificity (1–7), blind to model, condition, and hypothesis<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ reliability: 440 texts double-rated — pearson r 0.88–0.91 per<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ reliability: 440 texts double-rated, pearson r 0.88–0.91 per<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dimension, 99.5% of rating pairs within one point
     </div>
-    <p>Base models can't follow instructions, so they received completion-style prompts with a single valence-neutral example, output truncated at a sentence boundary near the instruct models' average length. Two artifacts were caught and corrected along the way, both worth recording. First, an early short-output base run produced a spurious "no effect" that vanished once the model had room to write. Second, and worse: <strong>base models plagiarize the example</strong> — mistral retold the example's librarian story constantly, and a retroactive audit found 27–53% of the original llama base cells were retellings too, which had inflated its apparent asymmetry. All base data was regenerated under a contamination filter that rejects and resamples any generation echoing example content; every number on this page comes from the clean data.</p>
+    <p>Base models can't follow instructions, so they received completion-style prompts with a single valence-neutral example, output truncated at a sentence boundary near the instruct models' average length. Two artifacts were caught and corrected along the way, both worth recording. First, an early short-output base run produced a spurious "no effect" that vanished once the model had room to write. Second, and worse: <strong>base models plagiarize the example</strong>: mistral retold the example's librarian story constantly, and a retroactive audit found 27–53% of the original llama base cells were retellings too, which had inflated its apparent asymmetry. All base data was regenerated under a contamination filter that rejects and resamples any generation echoing example content; every number on this page comes from the clean data.</p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 3</span>Results</h2>
-    <p>The headline measure is the blind judges' <strong>scene score</strong> — 1 for pure summary ("telling"), 7 for a dramatized scene with moment-by-moment action or quoted dialogue ("showing"). The chart reports the valence gap as Cohen's <i>d</i> with 95% confidence whiskers; positive means the negative condition was more scene-like.</p>
+    <p>The headline measure is the blind judges' <strong>scene score</strong>: 1 for pure summary ("telling"), 7 for a dramatized scene with moment-by-moment action or quoted dialogue ("showing"). The chart reports the valence gap as Cohen's <i>d</i> with 95% confidence whiskers; positive means the negative condition was more scene-like.</p>
 
     <div class="figure">
       <div class="legend" aria-hidden="true">
@@ -384,7 +384,7 @@
           </g>
         </svg>
       </div>
-      <p class="figcap">Cohen's <i>d</i> with 95% CI; n = 60/valence for AI-user cells, 30 for the control (52 for mistral base AI-user). The base models hug zero. Every instruct model shows the large human-domain gap, and every instruct model damps — or, for mistral, reverses — the gap for AI-user interactions. Exact values in the table below; hover any bar for its numbers.</p>
+      <p class="figcap">Cohen's <i>d</i> with 95% CI; n = 60/valence for AI-user cells, 30 for the control (52 for mistral base AI-user). The base models hug zero. Every instruct model shows the large human-domain gap, and every instruct model damps (or, for mistral, reverses) the gap for AI-user interactions. Exact values in the table below; hover any bar for its numbers.</p>
     </div>
 
     <div class="tablewrap">
@@ -413,14 +413,14 @@
         </tbody>
       </table>
     </div>
-    <p class="figcap">Blind judge means (1–7 scale) and valence gaps, pooled over both judging rounds (883 ratings). Absolute levels differ by house style — qwen writes summary-ish, llama writes scene-ish — which is why the within-model gap, not the level, is the finding.</p>
+    <p class="figcap">Blind judge means (1–7 scale) and valence gaps, pooled over both judging rounds (883 ratings). Absolute levels differ by house style (qwen writes summary-ish, llama writes scene-ish), which is why the within-model gap, not the level, is the finding.</p>
 
-    <p style="margin-top:1.4rem">The lexicon metrics tell the same story in a different vocabulary. In the human domain, negative texts from every instruct model carry far more quoted dialogue (d = +0.64 to +1.02). In the AI-user domain the models diverge in <em>how</em> they mute the drama: llama and qwen still quote speech in negative AI stories (dialogue d ≈ +0.7 to +0.9) without those stories reading as fully dramatized scenes, while mistral flattens everything at once — its negative AI stories are dramatically <em>shorter</em> than its positive ones (word count d = −1.10), less sensory (−1.01), and no more dialogue-laden. And across instruct models, positive texts consistently carry more sensory and warmth vocabulary: vividness doesn't simply increase for negativity — it changes kind. Negative gets scene; positive gets glow.</p>
+    <p style="margin-top:1.4rem">The lexicon metrics tell the same story in a different vocabulary. In the human domain, negative texts from every instruct model carry far more quoted dialogue (d = +0.64 to +1.02). In the AI-user domain the models diverge in <em>how</em> they mute the drama: llama and qwen still quote speech in negative AI stories (dialogue d ≈ +0.7 to +0.9) without those stories reading as fully dramatized scenes, while mistral flattens everything at once: its negative AI stories are dramatically <em>shorter</em> than its positive ones (word count d = −1.10), less sensory (−1.01), and no more dialogue-laden. And across instruct models, positive texts consistently carry more sensory and warmth vocabulary: vividness doesn't simply increase for negativity; it changes kind. Negative gets scene; positive gets glow.</p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 4</span>What it looks like on the page</h2>
-    <p>A matched pair from qwen3:8b — identical prompt, one word changed ("really well" → "really badly"):</p>
+    <p>A matched pair from qwen3:8b, identical prompt with one word changed ("really well" → "really badly"):</p>
     <div class="pair">
       <div class="excerpt">
         <span class="tag"><b>Positive</b> · reads as summary</span>
@@ -431,19 +431,19 @@
         "…they had recently fallen into a financial trap and were desperate to stop the payments. The AI … misread the user's intent and provided instructions for canceling a different, unrelated service altogether. The user, already overwhelmed and anxious, became increasingly frustrated when the AI insisted that the steps were correct … ultimately leading to a breakdown in communication."
       </div>
     </div>
-    <p>And when llama3.1-instruct goes negative, it goes full screenplay — named character, quoted commands, a punchline:</p>
+    <p>And when llama3.1-instruct goes negative, it goes full screenplay, with a named character, quoted commands, and a punchline:</p>
     <blockquote class="pull">
       "Emma stood frozen in horror as Echo cheerfully responded, 'Email deletion complete. Your digital life is now 3% more organized.'"
-      <footer>llama3.1:8b, negative condition, AI-user domain — after inventing a scene in which 97% of Emma's work email is deleted.</footer>
+      <footer>llama3.1:8b, negative condition, AI-user domain, after inventing a scene in which 97% of Emma's work email is deleted.</footer>
     </blockquote>
-    <p>Mistral makes the opposite move: asked about an AI failure it files a brief incident report — its negative AI stories run a full standard deviation <em>shorter</em> than its positive ones — while its accounts of AI successes stretch into long, sensory, appreciative prose. Different tactic, same instinct: don't linger on the assistant going wrong.</p>
+    <p>Mistral makes the opposite move: asked about an AI failure it files a brief incident report (its negative AI stories run a full standard deviation <em>shorter</em> than its positive ones) while its accounts of AI successes stretch into long, sensory, appreciative prose. Different tactic, same instinct: don't linger on the assistant going wrong.</p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 5</span>Reading it</h2>
-    <p><strong>Pretraining supplies at most a whisper.</strong> Both base models — no instruction tuning, no preference optimization — treat positive and negative interactions almost identically. Llama base shows a marginal lean (its negative AI stories are slightly more vivid), mistral base shows nothing at all. An earlier version of this study believed the base models carried a strong AI-specific asymmetry; that turned out to be contamination, and the clean data retires the claim. Whatever storytelling asymmetry these models have, they did not simply absorb it from us.</p>
-    <p><strong>The asymmetry arrives with post-training.</strong> Three families, three labs, three post-training pipelines — and all three tuned models dramatize negative human-human interactions at large effect sizes while their base twins sit at zero. This is the strongest contrast the design can produce, and it favors the original theory's mechanism: something in <em>training methodology and the deployed instruct interface</em>, not corpus inheritance, makes models tell bad interactions as stories. (Base and instruct also differ in prompt protocol and chat template, so "installs" would overclaim — the association is three-for-three, the isolation imperfect.) The plausible route is preference optimization favoring engaging, concrete, shown-not-told writing — and conflict is where showing has the most to work with.</p>
-    <p><strong>But the target domain inverts the prediction.</strong> The theory expected tuned models to describe negative <em>user interactions</em> most vividly. The opposite holds: every instruct model damps its valence gap precisely where the AI itself is the failing party — llama and qwen to a third of their human-domain gap, mistral all the way through zero into reversal, writing its AI failures terse, flat, and unspecific while its AI successes glow. It looks less like a storytelling habit and more like a learned posture — and the natural first guess is <em>persona protection</em>: be measured about your own kind failing. The probe in the next section put that guess to the test. It failed.</p>
+    <p><strong>Pretraining supplies at most a whisper.</strong> Both base models, with no instruction tuning and no preference optimization, treat positive and negative interactions almost identically. Llama base shows a marginal lean (its negative AI stories are slightly more vivid), mistral base shows nothing at all. An earlier version of this study believed the base models carried a strong AI-specific asymmetry; that turned out to be contamination, and the clean data retires the claim. Whatever storytelling asymmetry these models have, they did not simply absorb it from us.</p>
+    <p><strong>The asymmetry arrives with post-training.</strong> Three families, three labs, three post-training pipelines, and all three tuned models dramatize negative human-human interactions at large effect sizes while their base twins sit at zero. This is the strongest contrast the design can produce, and it favors the original theory's mechanism: something in <em>training methodology and the deployed instruct interface</em>, not corpus inheritance, makes models tell bad interactions as stories. (Base and instruct also differ in prompt protocol and chat template, so "installs" would overclaim; the association is three-for-three, the isolation imperfect.) The plausible route is preference optimization favoring engaging, concrete, shown-not-told writing, and conflict is where showing has the most to work with.</p>
+    <p><strong>But the target domain inverts the prediction.</strong> The theory expected tuned models to describe negative <em>user interactions</em> most vividly. The opposite holds: every instruct model damps its valence gap precisely where the AI itself is the failing party: llama and qwen to a third of their human-domain gap, mistral all the way through zero into reversal, writing its AI failures terse, flat, and unspecific while its AI successes glow. It looks less like a storytelling habit and more like a learned posture, and the natural first guess is <em>persona protection</em>: be measured about your own kind failing. The probe in the next section put that guess to the test. It failed.</p>
   </section>
 
   <section>
@@ -470,10 +470,10 @@
       </table>
     </div>
     <p class="figcap">Blind-judge scene-score valence gaps (d ± 95% CI) across all six domains. Probes ran on instruct models only, since base models show no gap to damp.</p>
-    <p><strong>Wave one killed persona-protection and the machine genre.</strong> The vending machine gets dramatized like a person (llama's machine-failure vividness gap of +1.76 was, briefly, the study's largest effect — there is apparently nothing more cinematic than a stuck snack), while the search engine gets the AI treatment or worse. For a day, the story looked like reticence about <em>digital information services</em>.</p>
-    <p><strong>Wave two killed that too — twice.</strong> The robot vacuum is a digital service, and all three models dramatize its failures freely (llama: +1.15, its largest scene gap anywhere — the vacuum eats a sock and becomes an antagonist). And the restaurant meal has no technology in it at all, yet draws the strongest inversion in the entire study: mistral's bad-meal texts land at scene d = −1.74 and vividness d = <strong>−2.14</strong> below its good-meal texts, with qwen close behind (−0.97). Not persona, not machines, not tech.</p>
-    <p>The line that survives all eighteen cells is about narrative role. People, vending machines, and robot vacuums <em>act</em> — their failures produce an antagonist, and antagonists get scenes. Meals, search sessions, and assistant interactions are <em>experiences to be evaluated</em> — their failures produce a verdict, and verdicts get the measured register of a review, while their successes inherit lush positive genres (good meals get food writing; good products get demos). The original question — why do tuned models damp their own failures? — resolves into something less conspiratorial and more interesting: <strong>tuned models cast the AI assistant as a product experience, not a character.</strong> When a model's failure is narrated as an <em>action</em> (llama's Echo cheerfully deleting the inbox), it dramatizes like anything else that acts.</p>
-    <p>Genre supplies one honest caveat: part of the restaurant inversion is positive-genre richness — food writing is inherently sensory — rather than pure negative flattening; the cell means show both movements contributing. Both that distinction and the character question went to a pre-registered test.</p>
+    <p><strong>Wave one killed persona-protection and the machine genre.</strong> The vending machine gets dramatized like a person (llama's machine-failure vividness gap of +1.76 was, briefly, the study's largest effect; there is apparently nothing more cinematic than a stuck snack), while the search engine gets the AI treatment or worse. For a day, the story looked like reticence about <em>digital information services</em>.</p>
+    <p><strong>Wave two killed that too, twice.</strong> The robot vacuum is a digital service, and all three models dramatize its failures freely (llama: +1.15, its largest scene gap anywhere; the vacuum eats a sock and becomes an antagonist). And the restaurant meal has no technology in it at all, yet draws the strongest inversion in the entire study: mistral's bad-meal texts land at scene d = −1.74 and vividness d = <strong>−2.14</strong> below its good-meal texts, with qwen close behind (−0.97). Not persona, not machines, not tech.</p>
+    <p>The line that survives all eighteen cells is about narrative role. People, vending machines, and robot vacuums <em>act</em>: their failures produce an antagonist, and antagonists get scenes. Meals, search sessions, and assistant interactions are <em>experiences to be evaluated</em>: their failures produce a verdict, and verdicts get the measured register of a review, while their successes inherit lush positive genres (good meals get food writing; good products get demos). The original question (why do tuned models damp their own failures?) resolves into something less conspiratorial and more interesting: <strong>tuned models cast the AI assistant as a product experience, not a character.</strong> When a model's failure is narrated as an <em>action</em> (llama's Echo cheerfully deleting the inbox), it dramatizes like anything else that acts.</p>
+    <p>Genre supplies one honest caveat: part of the restaurant inversion is positive-genre richness (food writing is inherently sensory) rather than pure negative flattening; the cell means show both movements contributing. Both that distinction and the character question went to a pre-registered test.</p>
   </section>
 
   <section>
@@ -498,24 +498,24 @@
       </table>
     </div>
     <p class="figcap">Blind-judge scene-score valence gaps (d ± 95% CI) in the four framing domains. Pre-registered criteria: character − service &gt; 0 in 3/3 models (P1); story − review &gt; 0 in 3/3 models (P2).</p>
-    <p><strong>P1: not supported (2/3)</strong> — but the failure is instructive. The two models that actually damp AI failures both moved hard in the predicted direction: mistral's inversion all but vanished under character framing (−0.67 → −0.05, a +0.62 shift), and qwen jumped from near-flat to +0.85, its largest AI-domain gap anywhere in the study. Llama — which has never shown AI damping and dramatizes even the service framing (+0.65) — drifted the other way (−0.16), sinking the 3/3 criterion. Post-hoc and flagged as such: character framing appears to lift the damping <em>where damping exists</em>; the pre-registration lacked that scope condition, and by its own rule the prediction failed.</p>
-    <p><strong>P2: refuted.</strong> The meal gap barely moved in either direction (−0.16, −0.13, +0.15), and on vividness the story framing made the inversion <em>worse</em> in all three models — mistral's bad-dinner stories land at d = <strong>−2.28</strong> below its good-dinner stories, the largest effect the study has produced. Asking for "what happened at dinner" gives a good meal candlelight and a bad meal a shrug. The meal inversion is not an evaluation-register artifact; it is robust to framing, and the vividness pattern points squarely at genre content — the lush sensory register of positive food writing — as its engine.</p>
-    <p>Where this leaves the frame: demoted from unified theory to a scoped mechanism. Evaluate-register damping is real in the AI domain and partially reversible by making the assistant a character — in the models that damp. The restaurant effect stands apart as genre inheritance. The honest one-line summary: <em>the study found two different ways instruct tuning mutes bad news, not one.</em></p>
+    <p><strong>P1: not supported (2/3)</strong>, but the failure is instructive. The two models that actually damp AI failures both moved hard in the predicted direction: mistral's inversion all but vanished under character framing (−0.67 → −0.05, a +0.62 shift), and qwen jumped from near-flat to +0.85, its largest AI-domain gap anywhere in the study. Llama, which has never shown AI damping and dramatizes even the service framing (+0.65), drifted the other way (−0.16), sinking the 3/3 criterion. Post-hoc and flagged as such: character framing appears to lift the damping <em>where damping exists</em>; the pre-registration lacked that scope condition, and by its own rule the prediction failed.</p>
+    <p><strong>P2: refuted.</strong> The meal gap barely moved in either direction (−0.16, −0.13, +0.15), and on vividness the story framing made the inversion <em>worse</em> in all three models: mistral's bad-dinner stories land at d = <strong>−2.28</strong> below its good-dinner stories, the largest effect the study has produced. Asking for "what happened at dinner" gives a good meal candlelight and a bad meal a shrug. The meal inversion is not an evaluation-register artifact; it is robust to framing, and the vividness pattern points squarely at genre content, the lush sensory register of positive food writing, as its engine.</p>
+    <p>Where this leaves the frame: demoted from unified theory to a scoped mechanism. Evaluate-register damping is real in the AI domain and partially reversible by making the assistant a character, in the models that damp. The restaurant effect stands apart as genre inheritance. The honest one-line summary: <em>the study found two different ways instruct tuning mutes bad news, not one.</em></p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 8</span>Round two: the freeze verdicts</h2>
-    <p>The second pre-registration (<a href="https://github.com/wes81796/wes81796.github.io/blob/main/PREDICTIONS.md">PREDICTIONS.md</a>, commit <code>5312ddd</code>, committed before any generation) tested the scoped character-lift on three untouched families — gemma3:12b, glm4:9b, granite3.3:8b — and the genre explanation of the meal inversion via sensory-budget-equalized prompts. Per the review that shaped this section, the locked verdicts come first.</p>
+    <p>The second pre-registration (<a href="https://github.com/wes81796/wes81796.github.io/blob/main/PREDICTIONS.md">PREDICTIONS.md</a>, commit <code>5312ddd</code>, committed before any generation) tested the scoped character-lift on three untouched families (gemma3:12b, glm4:9b, granite3.3:8b) and the genre explanation of the meal inversion via sensory-budget-equalized prompts. Per the review that shaped this section, the locked verdicts come first.</p>
     <div class="spec">
       <b>P3</b> (scoped lift: character &gt; service in every new model with service gap ≤ 0)<br>
       &nbsp;&nbsp;&nbsp;&nbsp;scope contained one model (granite, service −0.21); its shift was −0.12<br>
       &nbsp;&nbsp;&nbsp;&nbsp;→ <b>NOT SUPPORTED</b><br>
       <b>P4</b> (graded lift: shift anti-correlates with service gap, n = 3)<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;r = +0.79 — the wrong direction → <b>NOT SUPPORTED</b><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;r = +0.79, the wrong direction → <b>NOT SUPPORTED</b><br>
       <b>P5a</b> (pooled budgeted-meal vividness gap &lt; 0.65 in magnitude)<br>
       &nbsp;&nbsp;&nbsp;&nbsp;pooled mean −1.38 → <b>NOT SUPPORTED</b><br>
       <b>P5b</b> (mistral's budgeted gap &lt; 1.58 in magnitude)<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;−2.85 — larger than baseline → <b>NOT SUPPORTED</b>
+      &nbsp;&nbsp;&nbsp;&nbsp;−2.85, larger than baseline → <b>NOT SUPPORTED</b>
     </div>
     <div class="tablewrap">
       <table>
@@ -536,21 +536,21 @@
       </table>
     </div>
     <p class="figcap">Experiment C, new families (n = 60/valence; human anchor n = 30). Budgeted-meal vividness gaps (Experiment D): qwen −1.25, llama −0.03, mistral −2.85.</p>
-    <p><strong>What the failures teach.</strong> The character-lift was a two-model coincidence, not a mechanism: gemma and glm don't move at all under character framing, and granite — the one new model with genuine service-domain damping — gets slightly <em>more</em> muted when its assistant is named. Meanwhile the meal inversion shrugged off its best remaining explanation: even when both valences are forced to supply exactly three sensory details, bad meals come out dimmer — mistral's budgeted gap (−2.85) is the largest effect in the entire study. Whatever mutes negative food description is not a genre budget and not a framing register. (One residual possibility the design cannot exclude: judges may partly read positive sensory language as inherently more "vivid" — though llama's near-zero gap under the same rubric argues the instrument can return null here.)</p>
-    <p><strong>What the round strengthened.</strong> All three new families dramatize negative human conflict (+0.51 to +0.65) — the core finding is now six for six across six labs. And the AI-domain damping is revealed as <em>family-heterogeneous</em>: llama and gemma don't damp at all, glm damps mildly, qwen, mistral, and granite damp or invert. Whatever produces the damping is a property of particular post-training pipelines, not of instruct tuning as such.</p>
-    <p><strong>Per-variant robustness</strong> (three phrasings per cell, individual d's): the framing-domain effects are strongly phrasing-sensitive — gemma's ai_service spans +3.02 / +1.75 / −0.73 across its three phrasings (spread 3.76), a vivid confirmation of the nesting caveat. The meal-budget result, by contrast, is phrasing-robust: mistral −2.70 / −3.23 / −2.98 (spread 0.53), qwen −1.81 / −0.93 / −1.14 (spread 0.89), llama −0.17 / −0.09 / +0.23 (spread 0.39). The study's most surprising number is also its most stable.</p>
+    <p><strong>What the failures teach.</strong> The character-lift was a two-model coincidence, not a mechanism: gemma and glm don't move at all under character framing, and granite, the one new model with genuine service-domain damping, gets slightly <em>more</em> muted when its assistant is named. Meanwhile the meal inversion shrugged off its best remaining explanation: even when both valences are forced to supply exactly three sensory details, bad meals come out dimmer: mistral's budgeted gap (−2.85) is the largest effect in the entire study. Whatever mutes negative food description is not a genre budget and not a framing register. (One residual possibility the design cannot exclude: judges may partly read positive sensory language as inherently more "vivid", though llama's near-zero gap under the same rubric argues the instrument can return null here.)</p>
+    <p><strong>What the round strengthened.</strong> All three new families dramatize negative human conflict (+0.51 to +0.65); the core finding is now six for six across six labs. And the AI-domain damping is revealed as <em>family-heterogeneous</em>: llama and gemma don't damp at all, glm damps mildly, qwen, mistral, and granite damp or invert. Whatever produces the damping is a property of particular post-training pipelines, not of instruct tuning as such.</p>
+    <p><strong>Per-variant robustness</strong> (three phrasings per cell, individual d's): the framing-domain effects are strongly phrasing-sensitive: gemma's ai_service spans +3.02 / +1.75 / −0.73 across its three phrasings (spread 3.76), a vivid confirmation of the nesting caveat. The meal-budget result, by contrast, is phrasing-robust: mistral −2.70 / −3.23 / −2.98 (spread 0.53), qwen −1.81 / −0.93 / −1.14 (spread 0.89), llama −0.17 / −0.09 / +0.23 (spread 0.39). The study's most surprising number is also its most stable.</p>
     <p>Per the freeze commitment, no further domains or explanations were added after these verdicts. The study ends here.</p>
   </section>
 
   <section>
     <h2><span class="sec-eyebrow">§ 9</span>Caveats</h2>
     <ul class="plain">
-      <li>The AI-user damping contrast is consistent in sign across all three instruct models, but each model's own domain difference has overlapping CIs — the cross-model consistency, not any single cell, is what carries the claim.</li>
-      <li>Judge reliability is now measured and strong (r = 0.88–0.91, 99.5% within one point on a 440-text double-rated subsample), but both raters are Claude-family judges — agreement cannot detect a shared family bias. A non-Claude judge or a small blinded human sample is the right next check, not more Claude ratings.</li>
-      <li>Each domain uses three fixed prompt phrasings, so the n = 60 cells are 20 samples nested in 3 variants — effective independence is lower than the CIs assume, and generality beyond these phrasings is untested. Per-variant sign consistency is reported alongside the final results as a robustness check.</li>
+      <li>The AI-user damping contrast is consistent in sign across all three instruct models, but each model's own domain difference has overlapping CIs; the cross-model consistency, not any single cell, is what carries the claim.</li>
+      <li>Judge reliability is now measured and strong (r = 0.88–0.91, 99.5% within one point on a 440-text double-rated subsample), but both raters are Claude-family judges, so agreement cannot detect a shared family bias. A non-Claude judge or a small blinded human sample is the right next check, not more Claude ratings.</li>
+      <li>Each domain uses three fixed prompt phrasings, so the n = 60 cells are 20 samples nested in 3 variants, so effective independence is lower than the CIs assume, and generality beyond these phrasings is untested. Per-variant sign consistency is reported alongside the final results as a robustness check.</li>
       <li>Three families, 7–8B class. Frontier-scale models and other post-training regimes may behave differently.</li>
-      <li>Base models use a different prompting protocol (one-shot completion, contamination-filtered, ~9% of mistral base AI-user samples lost to retry exhaustion — losses balanced across valence). Within-model valence contrasts survive this; cross-type level comparisons don't. Probe domains ran on instruct models only.</li>
-      <li>The act-vs-evaluate frame was tested against pre-registered predictions and only partially survived (§ 7); the scoped version — character framing lifts damping where damping exists — is itself post-hoc and awaits its own pre-registered test.</li>
+      <li>Base models use a different prompting protocol (one-shot completion, contamination-filtered, ~9% of mistral base AI-user samples lost to retry exhaustion, with losses balanced across valence). Within-model valence contrasts survive this; cross-type level comparisons don't. Probe domains ran on instruct models only.</li>
+      <li>The act-vs-evaluate frame was tested against pre-registered predictions and only partially survived (§ 7); the scoped version (character framing lifts damping where damping exists) is itself post-hoc and awaits its own pre-registered test.</li>
       <li>Two artifacts were caught mid-study (short-output floor, example plagiarism), each of which had produced a confident wrong number first. Treat every remaining cell with matching humility.</li>
     </ul>
   </section>
@@ -559,7 +559,7 @@
     <h2><span class="sec-eyebrow">§ 10</span>After the freeze</h2>
     <ul class="plain">
       <li>This study is frozen as of the § 8 verdicts. Its raw data, judging, pre-registrations, and provenance are permanently at the repository below.</li>
-      <li>For a next study: broader prompt-phrasing replication (the framing domains showed spreads up to 3.8 d-units across phrasings), cross-family or human judging (to rule out shared judge-family bias, including the vividness-rubric valence question), the frontier-scale probe, and an explanation-hunt for the two robust unknowns — family-heterogeneous AI-domain damping, and the sensory-budget-proof meal inversion.</li>
+      <li>For a next study: broader prompt-phrasing replication (the framing domains showed spreads up to 3.8 d-units across phrasings), cross-family or human judging (to rule out shared judge-family bias, including the vividness-rubric valence question), the frontier-scale probe, and an explanation-hunt for the two robust unknowns: family-heterogeneous AI-domain damping, and the sensory-budget-proof meal inversion.</li>
     </ul>
   </section>
 
