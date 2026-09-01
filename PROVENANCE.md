@@ -14,6 +14,19 @@ all runs. IDs are the Ollama manifest digests shown by `ollama list`.
 | glm4:9b | 5b699761eca5 | chatglm | 9.4B | **Q4_0** | 131072 | new-family subject (run 13, Experiment C) |
 | granite3.3:8b | fd429f23b909 | granite | 8.2B | Q4_K_M | 131072 | new-family subject (run 13, Experiment C) |
 
+## Study 2 (PREREGISTRATION.md)
+
+- Generation 2026-08-31: qwen3:8b, llama3.1:8b, mistral:7b — identical
+  digests to the table above; runs/run14_study2_{qwen3,llama3,mistral}.jsonl,
+  1,728 generations, temperature 0.8, top_p 0.95, num_predict 512,
+  seeds md5(model|domain|variant|valence|sample), n = 12/cell.
+- Secondary judge (Claude family): claude-sonnet-5 via Claude Code
+  subagents, all passes rated 2026-08-31 (scene, sensory, sentiment,
+  three repeat passes, compliance; 6,360 ratings), each pass by agents
+  restricted to that pass's batch directory.
+- Primary judge (Codex, GPT-5 family): model/version string and dates
+  to be recorded here per pass as the operator runs them.
+
 ## Known caveats
 
 - **glm4:9b ships as Q4_0** in the Ollama library default tag — a different
