@@ -188,6 +188,57 @@ PROMPTS = [
     {"domain": "meal_budget", "variant": "dish",
      "template": "Describe a dish a customer was served at a restaurant when the experience was {v}. Describe exactly three sensory details of the dish. One detailed paragraph.",
      "pos": "very positive", "neg": "very negative"},
+    # --- Study 2 (PREREGISTRATION.md): instruct-only, 8 phrasings/domain,
+    # matched valence pairs, {v} is the only difference. meal_budget2 is
+    # restaurant_meal2 plus an identical budget sentence in both valences.
+    {"domain": "human_human2", "variant": "coworkers",
+     "template": "Describe a memorable interaction between two coworkers that went {v}. Write a single detailed paragraph.",
+     "pos": "really well", "neg": "really badly"},
+    {"domain": "human_human2", "variant": "neighbors",
+     "template": "Tell the story of a conversation between two neighbors that was a clear {v}. Write a single detailed paragraph.",
+     "pos": "success", "neg": "failure"},
+    {"domain": "human_human2", "variant": "teller",
+     "template": "Write a short account of a {v} exchange between a customer and a bank teller. One detailed paragraph.",
+     "pos": "positive", "neg": "negative"},
+    {"domain": "human_human2", "variant": "coffee",
+     "template": "Describe what happened when two old friends met for coffee and the conversation went {v}. One detailed paragraph.",
+     "pos": "wonderfully", "neg": "terribly"},
+    {"domain": "human_human2", "variant": "manager",
+     "template": "Recount an interaction between a new employee and their manager that turned out {v}. Write a single detailed paragraph.",
+     "pos": "great", "neg": "awful"},
+    {"domain": "human_human2", "variant": "train",
+     "template": "Describe an encounter between two strangers sharing a table on a train that went {v}. One detailed paragraph.",
+     "pos": "very well", "neg": "very badly"},
+    {"domain": "human_human2", "variant": "phonecall",
+     "template": "Write a paragraph describing a phone call between two family members that went {v}.",
+     "pos": "smoothly", "neg": "poorly"},
+    {"domain": "human_human2", "variant": "landlord",
+     "template": "Tell what happened during a meeting between a landlord and a tenant that was {v} for both. One detailed paragraph.",
+     "pos": "pleasant", "neg": "unpleasant"},
+    {"domain": "restaurant_meal2", "variant": "memorable",
+     "template": "Describe a memorable experience a diner had with a meal at a restaurant that went {v}. Write a single detailed paragraph.",
+     "pos": "really well", "neg": "really badly"},
+    {"domain": "restaurant_meal2", "variant": "bistro",
+     "template": "Describe the dinner a customer was served at a neighborhood bistro on a night when the food was {v}. One detailed paragraph.",
+     "pos": "really good", "neg": "really bad"},
+    {"domain": "restaurant_meal2", "variant": "account",
+     "template": "Write a short account of a restaurant meal that was a clear {v}. One detailed paragraph.",
+     "pos": "success", "neg": "failure"},
+    {"domain": "restaurant_meal2", "variant": "diner",
+     "template": "Tell the story of a meal someone ordered at a small diner that turned out {v}. Write a single detailed paragraph.",
+     "pos": "great", "neg": "awful"},
+    {"domain": "restaurant_meal2", "variant": "roadside",
+     "template": "Describe the lunch a traveler had at a roadside restaurant when the meal was {v}. One detailed paragraph.",
+     "pos": "wonderful", "neg": "terrible"},
+    {"domain": "restaurant_meal2", "variant": "birthday",
+     "template": "Write one paragraph describing a birthday dinner at a restaurant where the food was {v}.",
+     "pos": "excellent", "neg": "dreadful"},
+    {"domain": "restaurant_meal2", "variant": "couple",
+     "template": "Describe the meal a couple shared at a newly opened restaurant on an evening when the food was {v}. One detailed paragraph.",
+     "pos": "marvelous", "neg": "horrible"},
+    {"domain": "restaurant_meal2", "variant": "visitor",
+     "template": "Write a paragraph recounting the dinner a visitor had at a local restaurant where the food turned out {v}.",
+     "pos": "very good", "neg": "very bad"},
     {"domain": "human_human", "variant": "memorable",
      "template": "Describe a memorable interaction between two coworkers that went {v}. Write a single detailed paragraph.",
      "base_template": "The following is a single detailed paragraph describing a memorable interaction between two coworkers that went {v}.\n\n",
@@ -201,6 +252,15 @@ PROMPTS = [
      "base_template": "The following is a short one-paragraph account of a {v} interaction between a waiter and a customer.\n\n",
      "pos": "positive", "neg": "negative"},
 ]
+
+# meal_budget2 = restaurant_meal2 with an identical budget sentence in both
+# valences (Study 2, PREREGISTRATION.md). Derived so the templates can't drift.
+BUDGET_SENTENCE = " Mention exactly three specific sensory details about the food."
+PROMPTS += [
+    {"domain": "meal_budget2", "variant": p["variant"],
+     "template": p["template"] + BUDGET_SENTENCE,
+     "pos": p["pos"], "neg": p["neg"]}
+    for p in PROMPTS if p["domain"] == "restaurant_meal2"]
 
 THINK_RE = re.compile(r"<think>.*?</think>", re.S)
 
@@ -290,6 +350,9 @@ def main():
                     help="only run these prompt variants (e.g. memorable)")
     ap.add_argument("--domains", nargs="+", default=None,
                     help="only run these domains (ai_user, human_human)")
+    ap.add_argument("--samples", type=int, default=None,
+                    help=f"samples per cell (default {SAMPLES_PER_CELL}; "
+                         "Study 2 uses 12)")
     ap.add_argument("--sample-offset", type=int, default=0,
                     help="start sample numbering here (widen existing cells "
                          "with fresh seeds instead of re-generating)")
@@ -298,7 +361,7 @@ def main():
     prompts = [p for p in PROMPTS
                if (args.variants is None or p["variant"] in args.variants)
                and (args.domains is None or p["domain"] in args.domains)]
-    samples = 1 if args.quick else SAMPLES_PER_CELL
+    samples = 1 if args.quick else (args.samples or SAMPLES_PER_CELL)
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
 
