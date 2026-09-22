@@ -4,26 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f0e8">
-  <meta name="description" content="Wes's personal portfolio: projects, experiments, and notes on practical AI and everyday work.">
+  <meta name="description" content="Wes’s personal portfolio of IT projects and AI research, with methods, results, and open questions.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Wes · Projects &amp; experiments">
-  <meta property="og:description" content="Projects, experiments, and notes on practical AI.">
+  <meta property="og:title" content="Wes · IT projects &amp; AI research">
+  <meta property="og:description" content="IT projects, AI research, and notes on what I’m learning.">
   <meta property="og:url" content="https://wes81796.github.io/">
   <meta property="og:image" content="https://wes81796.github.io/og.png">
   <meta property="og:image:width" content="1730">
   <meta property="og:image:height" content="909">
   <meta property="og:image:alt" content="Wes: Projects, experiments, and notes on practical AI.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wes · Projects &amp; experiments">
-  <meta name="twitter:description" content="Projects, experiments, and notes on practical AI.">
+  <meta name="twitter:title" content="Wes · IT projects &amp; AI research">
+  <meta name="twitter:description" content="IT projects, AI research, and notes on what I’m learning.">
   <meta name="twitter:image" content="https://wes81796.github.io/og.png">
-  <title>Wes · Projects &amp; experiments</title>
+  <title>Wes · IT projects &amp; AI research</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="home">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -42,34 +42,26 @@
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span aria-hidden="true">01</span> Hello, I’m Wes</p>
-        <h1 id="hero-title">Curious about useful technology, and what it changes.</h1>
-        <p class="hero-intro">I’m exploring practical AI through hands-on projects: asking a specific question, building the thing, and writing down what actually happened.</p>
+        <h1 id="hero-title">IT projects &amp;<br>AI research.</h1>
+        <p class="hero-intro">I’m Wes. I’m exploring practical IT and unanswered questions about how language models behave. This is where I share my projects, experiments, and what I’m learning.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#work">See my work <span aria-hidden="true">↓</span></a>
           <a class="text-link" href="https://github.com/wes81796" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
         </div>
-      </div>
-      <div class="hero-mark" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="mark-core">W</div>
-        <span class="spark spark-one"></span>
-        <span class="spark spark-two"></span>
-        <span class="spark spark-three"></span>
       </div>
     </section>
 
     <section class="work-section" id="work" aria-labelledby="work-title">
       <div class="section-heading">
         <p class="eyebrow"><span aria-hidden="true">02</span> Selected work</p>
-        <h2 id="work-title">Things I’ve been exploring</h2>
-        <p>Each project is a record of the question, the process, and the result, including the parts that didn’t go as expected.</p>
+        <h2 id="work-title">Projects &amp; experiments</h2>
+        <p>A completed study and the research I plan to return to next.</p>
       </div>
 
       <article class="project-card">
         <div class="project-copy">
           <div class="project-meta">
-            <span>Experiment</span>
+            <span>Completed study</span>
             <span>2026</span>
           </div>
           <h3>The Dramatized Negative</h3>
@@ -82,7 +74,8 @@
           </ul>
           <div class="project-actions">
             <a class="button button-primary" href="/dramatized-negative/">Read the project <span aria-hidden="true">→</span></a>
-            <a class="text-link" href="https://github.com/wes81796/wes81796.github.io" target="_blank" rel="noreferrer">View the data &amp; code <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/wes81796/wes81796.github.io/tree/main/runs">Raw data <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/wes81796/wes81796.github.io/blob/main/runner.py">Experiment code <span aria-hidden="true">↗</span></a>
           </div>
         </div>
 
@@ -103,22 +96,31 @@
           <p class="chart-note">Blind-judge scene-score gap (Cohen’s d, negative minus positive). Details and caveats are in the write-up.</p>
         </div>
       </article>
+
+      <article class="upcoming-project" aria-labelledby="quantization-title">
+        <p class="eyebrow">Planned research</p>
+        <div>
+          <h3 id="quantization-title">Returning to quantization</h3>
+          <p>I plan to restart my quantization research. There are no new results to share yet.</p>
+          <a class="text-link" href="https://github.com/wes81796/quantization-path-dependence">View the existing repository <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
     </section>
 
     <section class="about-section" id="about" aria-labelledby="about-title">
       <div>
         <p class="eyebrow"><span aria-hidden="true">03</span> A little more</p>
-        <h2 id="about-title">Learning by making</h2>
+        <h2 id="about-title">About this work</h2>
       </div>
       <div class="about-copy">
-        <p>I’m especially interested in the gap between what new technology promises and how it behaves in everyday use. This is where I share the small experiments and practical projects that help me understand that gap.</p>
-        <p>For now, this is a simple home for the work, not a company, a pitch, or a finished point of view.</p>
+        <p>I’m interested in practical IT and in understanding how AI behaves. This site is a place to keep the work, the questions behind it, and the evidence I can share.</p>
+        <p>In the valence and vividness study, the strongest finding outlasted the explanations I proposed for it. The write-up keeps those failed predictions alongside the results.</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Made with curiosity and a willingness to revise.</p>
+    <p>Wes · IT projects &amp; AI research</p>
     <div>
       <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
       <a href="https://github.com/wes81796" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>

@@ -243,3 +243,63 @@ h1 { max-width: 800px; font-size: clamp(3.1rem, 7vw, 6.7rem); line-height: 0.98;
   html { scroll-behavior: auto; }
   .button { transition: none; }
 }
+
+/* Homepage refresh: scoped to leave research and other pages unchanged. */
+.home { --muted: #596171; background: var(--paper); }
+.home .site-header, .home main, .home .site-footer { width: min(1080px, calc(100% - 48px)); }
+.home .site-header { min-height: 80px; gap: 1rem; }
+.home nav a { display: inline-flex; align-items: center; min-height: 44px; }
+.home h1, .home h2, .home h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+.home .hero { min-height: auto; display: block; padding: 4rem 0 4.5rem; }
+.home .hero-copy { max-width: 750px; }
+.home .eyebrow { margin-bottom: 1rem; letter-spacing: 0.1em; }
+.home h1 { font-size: clamp(2.6rem, 5vw, 4rem); line-height: 1.1; }
+.home .hero-intro { margin-top: 1.5rem; max-width: 620px; font-size: 1.12rem; }
+.home .hero-actions { margin-top: 1.75rem; }
+.home .button { border-radius: 4px; min-height: 44px; transition: background 160ms ease; }
+.home .button:hover { transform: none; }
+.home .work-section { padding: 3.5rem 0; }
+.home .section-heading { margin-bottom: 2rem; }
+.home .section-heading h2, .home .about-section h2 { font-size: clamp(2rem, 3.5vw, 2.65rem); line-height: 1.15; }
+.home .section-heading > p:last-child { margin-top: 1rem; font-size: 1rem; }
+.home .project-card { gap: 2.5rem; padding: 2rem; border: 1px solid var(--line); border-radius: 4px; box-shadow: none; }
+.home .project-meta { flex-wrap: wrap; margin-bottom: 1rem; }
+.home .project-meta span, .home .project-tags li { padding: 0; border: 0; border-radius: 0; font-size: 0.72rem; }
+.home .project-meta span + span::before { content: "·"; margin-right: 0.75rem; }
+.home .project-copy h3 { font-size: clamp(1.8rem, 3vw, 2.25rem); line-height: 1.15; }
+.home .project-tags { gap: 0.5rem 1rem; margin-top: 1.25rem; }
+.home .project-actions { gap: 1rem 1.25rem; margin-top: 1.5rem; }
+.home .project-actions .text-link { font-size: 0.9rem; }
+.home .project-visual { border-radius: 3px; padding: 1.5rem; }
+.home .chart-title { font-family: Georgia, "Times New Roman", serif; font-weight: 400; }
+.home .upcoming-project { display: grid; grid-template-columns: 1fr 3fr; gap: 2rem; margin-top: 2rem; padding: 2rem 0 0; border-top: 1px solid var(--line); }
+.home .upcoming-project h3 { font-size: 1.6rem; line-height: 1.25; }
+.home .upcoming-project p:not(.eyebrow) { color: var(--muted); max-width: 42rem; }
+.home .about-section { padding: 3.5rem 0; border-top: 1px solid var(--line); gap: 4rem; }
+.home .about-copy { font-size: 1.05rem; }
+.home .site-footer { min-height: 120px; }
+@media (max-width: 900px) {
+  .home .project-card { grid-template-columns: 1fr; }
+  .home .project-visual { width: 100%; max-width: none; }
+  .home .about-section { gap: 1.5rem; }
+}
+@media (max-width: 620px) {
+  .home .site-header, .home main, .home .site-footer { width: calc(100% - 32px); }
+  .home nav { gap: 0.85rem; }
+  .home .hero { padding: 2.75rem 0 3rem; }
+  .home .hero-actions, .home .project-actions { flex-direction: row; align-items: center; }
+  .home .work-section, .home .about-section { padding: 2.75rem 0; }
+  .home .project-card { padding: 1.25rem; gap: 1.75rem; }
+  .home .project-visual { padding: 1rem; }
+  .home .visual-header { flex-wrap: wrap; gap: 0.35rem; }
+  .home .upcoming-project { grid-template-columns: 1fr; gap: 0; }
+  .home .site-footer { padding-block: 2rem; min-height: auto; gap: 0.75rem; }
+  .home .site-footer p { margin: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home .button { transition: none; }
+}
