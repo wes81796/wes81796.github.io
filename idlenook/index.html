@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee4">
+  <title>Idlenook — Room to think · Wes</title>
+  <meta name="description" content="A cozy, local-first desktop workspace for unfinished ideas and AI-assisted projects. Explore the Idlenook prototype, with real app screenshots.">
+  <link rel="canonical" href="https://wes81796.github.io/idlenook/">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Idlenook — Room to think">
+  <meta property="og:description" content="Your ideas, their connections, and the next small step. A local-first desktop workspace, in development.">
+  <meta property="og:url" content="https://wes81796.github.io/idlenook/">
+  <meta property="og:image" content="https://wes81796.github.io/idlenook/social.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Idlenook — Room to think. A preview of its warm, connected idea canvas.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Idlenook — Room to think">
+  <meta name="twitter:description" content="A cozy, local-first workspace for ideas and AI-assisted projects. Working prototype.">
+  <meta name="twitter:image" content="https://wes81796.github.io/idlenook/social.jpg">
+  <link rel="stylesheet" href="page.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="back" href="/">← Wes / Selected work</a>
+    <nav aria-label="Page navigation"><a href="#inside">Inside Idlenook</a><a href="#status">Project status</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-top"><a class="brand" href="#main"><img src="icon.svg" width="48" height="48" alt="">Idlenook</a><span class="status"><span aria-hidden="true"></span> Working prototype</span></div>
+      <p class="eyebrow">A quieter place for your next idea</p>
+      <h1 id="hero-title">Room to <em>think.</em></h1>
+      <p class="intro">Some ideas need a little space before they become a plan.</p>
+      <p class="hero-description">A cozy desktop workspace for gathering thoughts, seeing their connections, and keeping AI-assisted projects in view.</p>
+      <div class="actions"><a class="button" href="#inside">Take a look inside <span aria-hidden="true">↓</span></a><a class="text-link" href="#story">Why I’m building it</a></div>
+      <p class="availability">Local-first · Windows desktop prototype · Not yet publicly available</p>
+    </section>
+
+    <figure class="hero-shot wrap">
+      <div class="frame-label"><span><i aria-hidden="true"></i> A little space for a bigger picture</span><span>Actual app screenshot</span></div>
+      <a href="canvas.png" aria-label="Open the full-size Personal workspace screenshot"><img src="canvas.webp" width="1584" height="975" fetchpriority="high" alt="Idlenook’s Personal canvas: a fictional bookshop idea connected to notes about the space, returning visitors, and a small experiment."></a>
+      <figcaption>A fictional bookshop, four connected thoughts, and somewhere to begin. <a href="canvas.png">View full size ↗</a></figcaption>
+    </figure>
+
+    <section class="story wrap section" id="story">
+      <div><p class="eyebrow">The reason it exists</p><h2>Good ideas shouldn’t<br>disappear into a chat.</h2></div>
+      <div class="prose"><p>While working with AI, I kept running into the same problem: useful ideas, decisions, and project updates were scattered across conversations. Keeping a separate record was becoming a project of its own.</p><p>Idlenook is my attempt to give that work a home. Not just a list of tasks, but a place to see how the pieces fit—and leave an unfinished thought without losing it.</p></div>
+    </section>
+
+    <section class="inside wrap section" id="inside" aria-labelledby="inside-title">
+      <div class="section-heading"><p class="eyebrow">Inside the workspace</p><h2 id="inside-title">Think in pieces.<br>See the whole.</h2><p>Arrange the canvas around the way your mind works.</p></div>
+      <div class="features">
+        <article><span class="number">01 / Make space</span><h3>Move ideas around.</h3><p>Drag and resize cards. Connect a question to an experiment, or a small detail to the bigger idea behind it.</p></article>
+        <article><span class="number">02 / Make it yours</span><h3>Write where you think.</h3><p>Edit directly on a card. Choose its color, font, and formatting without leaving the canvas.</p></article>
+        <article><span class="number">03 / Keep things close</span><h3>Bring the context along.</h3><p>Drop an image to review and add it as a tile. Keep TXT, Markdown, and CSV documents in the workspace’s References.</p></article>
+      </div>
+      <figure class="detail-shot">
+        <a href="details.png" aria-label="Open the full-size card editing screenshot"><img src="details.webp" width="1584" height="975" loading="lazy" alt="A selected bookshop idea card beside Idlenook’s formatting panel, with text styles, font settings, and card appearance controls."></a>
+        <figcaption>Your words stay on the canvas; formatting lives beside them. <a href="details.png">View full size ↗</a></figcaption>
+      </figure>
+    </section>
+
+    <section class="agent-section" id="agents">
+      <div class="wrap">
+        <div class="agent-heading"><div><p class="eyebrow">For the work you do with AI</p><h2>A shared map.<br>A clearer next step.</h2></div><p>Give an authorized agent a place to record progress, decisions, and what remains—not another conversation you have to summarize by hand.</p></div>
+        <figure>
+          <a href="agents.png" aria-label="Open the full-size Agent workspace screenshot"><img src="agents.webp" width="1584" height="975" loading="lazy" alt="An Agent workspace with a central project objective and three connected milestones marked complete, active, and planned."></a>
+          <figcaption>An owner-created example board showing the Agent workspace. No autonomous agent activity is implied. <a href="agents.png">View full size ↗</a></figcaption>
+        </figure>
+        <div class="boundaries">
+          <article><h3>Personal stays separate.</h3><p>Your personal library is not part of an agent workspace’s access. Choose deliberately what belongs on the shared board.</p></article>
+          <article><h3>Access is explicit.</h3><p>Agent workspaces support scoped writer and reviewer access, revision history, and revocation. Workspace images and references are shared with authorized agents.</p></article>
+          <article><h3>You keep the layout.</h3><p>Agent content updates preserve your card positions and sizes. The map can evolve without rearranging the space you made.</p></article>
+        </div>
+        <p class="boundary-note">Local-first does not mean information can never leave your device. An external AI service receives what you share with it; revoking access cannot erase copies it already received.</p>
+      </div>
+    </section>
+
+    <section class="local wrap section">
+      <div><p class="eyebrow">Assistance, with a pause button</p><h2>A second perspective.<br>Still your call.</h2></div>
+      <div class="prose"><p>Connect a model through Ollama to clarify a thought, challenge an assumption, or explore a next step. Review the selected context before sending it, then decide which suggestions to keep.</p><p>Model assistance is optional. This integration is still being refined, and its reliability depends on the model and setup. A locally running Ollama service may also use cloud-backed models.</p><ol class="steps"><li>Review context</li><li>Send to model</li><li>Choose suggestions</li></ol></div>
+    </section>
+
+    <section class="status-section wrap" id="status" aria-labelledby="status-title">
+      <div><p class="eyebrow">An honest work in progress</p><h2 id="status-title">Built to use.<br>Still being made.</h2><p class="status-date">Development snapshot · September 2026</p></div>
+      <div class="prose"><p>The Windows desktop prototype is working and being prepared for a small round of friend testing. These are screenshots of the real application, using fictional demo content.</p><p>Next comes feedback on everyday use: onboarding, canvas clarity, model interactions, and the rough edges that only show up when someone else tries it.</p><p><strong>There is no public download yet.</strong> Cross-platform releases, production security assurance, and real-time team collaboration are not completed features.</p><a class="button" href="https://github.com/wes81796">Follow the work on GitHub <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="build-notes wrap section">
+      <div><p class="eyebrow">Behind the project</p><h2>Made through<br>conversation and use.</h2></div>
+      <div class="prose"><p>I’m developing Idlenook collaboratively with Codex. I guide the product direction, test it in my own workflows, and bring back the “I wish it could…” moments that shape the next iteration. Codex contributes implementation, design exploration, and automated checks.</p><p>The aim is a useful, welcoming tool—not a claim that AI-generated code needs no review. Usability, reliability, and security validation remain ongoing.</p><dl class="stack"><div><dt>Interface</dt><dd>React · TypeScript · Tiptap</dd></div><div><dt>Desktop &amp; storage</dt><dd>Electron · Node.js · SQLite</dd></div><div><dt>Optional model connection</dt><dd>Ollama</dd></div></dl></div>
+    </section>
+    <div class="closing wrap"><img src="icon.svg" width="48" height="48" alt=""><p>A little room.<br><em>A lot of possibility.</em></p><a href="#main">Back to top ↑</a></div>
+  </main>
+  <footer class="site-footer wrap"><a href="/">← Back to Wes’s portfolio</a><span>Idlenook · Room to think</span><a href="https://github.com/wes81796">GitHub ↗</a></footer>
+</body>
+</html>

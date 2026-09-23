@@ -303,3 +303,10 @@ h1 { max-width: 800px; font-size: clamp(3.1rem, 7vw, 6.7rem); line-height: 0.98;
 @media (prefers-reduced-motion: reduce) {
   .home .button { transition: none; }
 }
+.home .project-card + .project-card { margin-top: 2rem; }
+.home .idlenook-project { background: #eee6d8; border-color: #d6c9b6; }
+.home .idlenook-project .project-kicker { color: #7a562b; }
+.home .idlenook-preview { display: block; overflow: hidden; border: 1px solid #594a38; border-radius: 5px; background: #29251f; color: #ead8b2; text-decoration: none; }
+.home .idlenook-preview img { display: block; width: 100%; height: auto; }
+.home .idlenook-preview > span { display: flex; justify-content: space-between; gap: 12px; padding: 16px; font-size: 13px; }
+.home .prototype-note { margin: 1.15rem 0 0; color: #64594e; font-size: 12px; }
