@@ -61,3 +61,14 @@ h3{font-size:26px;line-height:1.25;letter-spacing:-.02em}
 @media(max-width:800px){.wrap{width:calc(100% - 40px)}.hero-top{margin-bottom:46px}.story,.local,.build-notes,.agent-heading,.status-section{grid-template-columns:1fr;gap:30px}.features,.boundaries{gap:24px}.section{padding:60px 0}.status-section{padding:32px;margin-top:50px}.agent-section{padding:60px 0}.agent-heading>p{max-width:600px}h3{font-size:23px}.stack{max-width:500px}}
 @media(max-width:540px){.site-header{min-height:70px;font-size:12px}.site-header nav a:first-child{display:none}.hero{padding:30px 0}.hero-top{gap:10px;margin-bottom:38px}.brand{font-size:24px}.brand img{width:38px;height:38px}.status{font-size:10px;padding:6px 9px}.eyebrow{font-size:10px;letter-spacing:.12em}h1{font-size:68px}.hero-description{font-size:16px}.actions{gap:20px;flex-wrap:wrap}.availability{font-size:11px;max-width:270px}.frame-label{font-size:10px;padding:10px 12px}.frame-label>span:last-child{display:none}.features,.boundaries{grid-template-columns:1fr;gap:30px}.features{margin:32px 0}.features article{padding-top:20px}.agent-section h2 br{display:none}.status-section{padding:26px}.stack div{grid-template-columns:1fr;gap:3px}.closing p{font-size:34px}.site-footer span{display:none}.section{padding:48px 0}.story{padding-top:48px}.steps{gap:10px 26px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+.model-lanes{display:grid;grid-template-columns:1fr 1fr;gap:46px;margin-top:38px}
+.model-lanes article{border-top:1px solid var(--line);padding-top:24px}
+.model-lanes h3{font-size:30px;max-width:420px}
+.model-lanes p{margin-top:17px;color:var(--muted)}
+.model-lanes .model-note{font-size:12px;margin-top:22px}
+.action-tags{list-style:none;display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:23px 0 0}
+.action-tags li{border:1px solid var(--line);padding:5px 10px;border-radius:5px;font-size:12px;color:var(--gold)}
+.model-boundary{padding:24px 28px;margin-top:34px;border-left:3px solid #a88b58;background:#eae2d4;border-radius:0 7px 7px 0}
+.model-boundary p{margin-top:8px;font-size:14px;color:var(--muted)}
+@media(max-width:700px){.model-lanes{grid-template-columns:1fr;gap:30px}.model-boundary{padding:22px}.model-lanes h3{font-size:27px}}
+@media(max-width:540px){.site-header nav{gap:14px}.site-header nav a:nth-child(2){display:none}.site-header nav a:first-child{display:inline}}

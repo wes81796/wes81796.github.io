@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f3eee4">
   <title>Idlenook — Room to think · Wes</title>
-  <meta name="description" content="A cozy, local-first desktop workspace for unfinished ideas and AI-assisted projects. Explore the Idlenook prototype, with real app screenshots.">
+  <meta name="description" content="Think with local models. Give AI agents a shared project memory. Idlenook brings model-assisted ideas and project progress onto a cozy, local-first canvas. Working prototype.">
   <link rel="canonical" href="https://wes81796.github.io/idlenook/">
   <link rel="icon" type="image/svg+xml" href="icon.svg">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Idlenook — Room to think">
-  <meta property="og:description" content="Your ideas, their connections, and the next small step. A local-first desktop workspace, in development.">
+  <meta property="og:description" content="Think with local models. Give AI agents a shared project memory. A cozy, local-first desktop workspace, in development.">
   <meta property="og:url" content="https://wes81796.github.io/idlenook/">
   <meta property="og:image" content="https://wes81796.github.io/idlenook/social.jpg">
   <meta property="og:image:width" content="1200">
@@ -18,7 +18,7 @@
   <meta property="og:image:alt" content="Idlenook — Room to think. A preview of its warm, connected idea canvas.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Idlenook — Room to think">
-  <meta name="twitter:description" content="A cozy, local-first workspace for ideas and AI-assisted projects. Working prototype.">
+  <meta name="twitter:description" content="Think with local models. Give AI agents a shared project memory. Working prototype.">
   <meta name="twitter:image" content="https://wes81796.github.io/idlenook/social.jpg">
   <link rel="stylesheet" href="page.css">
 </head>
@@ -26,16 +26,16 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header wrap">
     <a class="back" href="/">← Wes / Selected work</a>
-    <nav aria-label="Page navigation"><a href="#inside">Inside Idlenook</a><a href="#status">Project status</a></nav>
+    <nav aria-label="Page navigation"><a href="#models">Work with AI</a><a href="#inside">Inside Idlenook</a><a href="#status">Project status</a></nav>
   </header>
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-top"><a class="brand" href="#main"><img src="icon.svg" width="48" height="48" alt="">Idlenook</a><span class="status"><span aria-hidden="true"></span> Working prototype</span></div>
       <p class="eyebrow">A quieter place for your next idea</p>
       <h1 id="hero-title">Room to <em>think.</em></h1>
-      <p class="intro">Some ideas need a little space before they become a plan.</p>
-      <p class="hero-description">A cozy desktop workspace for gathering thoughts, seeing their connections, and keeping AI-assisted projects in view.</p>
-      <div class="actions"><a class="button" href="#inside">Take a look inside <span aria-hidden="true">↓</span></a><a class="text-link" href="#story">Why I’m building it</a></div>
+      <p class="intro">Think with models.<br>Keep the bigger picture.</p>
+      <p class="hero-description">Explore ideas with a local model. Give authorized AI agents a shared project memory. Bring your thinking and their progress together on a canvas that stays yours.</p>
+      <div class="actions"><a class="button" href="#models">See how AI fits in <span aria-hidden="true">↓</span></a><a class="text-link" href="#inside">Explore the canvas</a></div>
       <p class="availability">Local-first · Windows desktop prototype · Not yet publicly available</p>
     </section>
 
@@ -44,6 +44,15 @@
       <a href="canvas.png" aria-label="Open the full-size Personal workspace screenshot"><img src="canvas.webp" width="1584" height="975" fetchpriority="high" alt="Idlenook’s Personal canvas: a fictional bookshop idea connected to notes about the space, returning visitors, and a small experiment."></a>
       <figcaption>A fictional bookshop, four connected thoughts, and somewhere to begin. <a href="canvas.png">View full size ↗</a></figcaption>
     </figure>
+
+    <section class="models wrap section" id="models" aria-labelledby="models-title">
+      <div class="section-heading"><p class="eyebrow">Two ways to work with models</p><h2 id="models-title">A thinking partner.<br>A project memory.</h2><p>AI is part of the workflow—not just a chat window bolted onto it.</p></div>
+      <div class="model-lanes">
+        <article><span class="number">01 / Explore with a local model</span><h3>Give a rough idea somewhere to go.</h3><p>Choose an installed model through Ollama. Ask it to clarify a thought, challenge an assumption, suggest different branches, design a small experiment, or synthesize what’s on your board.</p><p>See the context before it is sent. Review the suggestions before adding them. Your original thought stays yours.</p><ul class="action-tags" aria-label="Available thinking actions"><li>Clarify</li><li>Challenge</li><li>Branch</li><li>Experiment</li><li>Synthesize</li></ul><p class="model-note">Available in Personal workspaces. Uses your Ollama setup; a model is not bundled with Idlenook.</p></article>
+        <article><span class="number">02 / Keep agent work in view</span><h3>Less copying updates between chats.</h3><p>A locally running coding agent can read an authorized project map and record objectives, decisions, evidence, blockers, and next steps as it works.</p><p>Give a separate reviewer read-only access to the permitted project context. Keep a useful map between sessions instead of reconstructing progress from long conversations.</p><a class="text-link" href="#agents">See the Agent workspace ↓</a><p class="model-note">Provider-neutral handoff and local API—not one-click integrations with every AI product. The agent must have a local HTTP client and valid access.</p></article>
+      </div>
+      <div class="model-boundary"><strong>Choose the model. Choose the access. Keep the decision.</strong><p>Local models can help with private thinking. External agents receive only the workspace access you grant, but may send that content to their provider. Idlenook does not run an autonomous agent for you, and a cloud-only chat cannot directly reach its local endpoint.</p></div>
+    </section>
 
     <section class="story wrap section" id="story">
       <div><p class="eyebrow">The reason it exists</p><h2>Good ideas shouldn’t<br>disappear into a chat.</h2></div>
